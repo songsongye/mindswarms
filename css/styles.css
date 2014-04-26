@@ -41,7 +41,8 @@ header {
   line-height: 60px; }
 
 header .main-logo {
-  margin: 0; }
+  margin: 0;
+  color: white; }
 
 /***** NAVIGATION *****/
 .hor_nav ul {
@@ -60,12 +61,48 @@ header .main-logo {
   width: 100%;
   height: 100%;
   padding: 0 20px;
-  color: #e1e1e1;
+  color: white;
   text-decoration: none; }
+
+.hor_nav ul li.green a:hover,
+.hor_nav ul li.green a:active {
+  background: #afd741; }
+
+.hor_nav ul li.blue a:hover,
+.hor_nav ul li.blue a:active {
+  background: #4bc8cd; }
+
+.hor_nav ul li.blue a:hover,
+.hor_nav ul li.blue a:active {
+  background: #4bc8cd; }
+
+.hor_nav ul li.signup a:link,
+.hor_nav ul li.signup a:visited {
+  background: #444444; }
 
 .hor_nav ul li a:hover,
 .hor_nav ul li a:active {
   background: #444444; }
+
+.hor_nav ul li.blue:hover a {
+  background: #4bc8cd; }
+
+.hor_nav ul li.green:hover a {
+  background: #afd741; }
+
+.hor_nav ul li.blue:hover ul a {
+  background: white;
+  color: #444444; }
+
+.hor_nav ul li.green:hover ul a {
+  background: white;
+  color: #444444; }
+
+.hor_nav ul li.blue ul a:hover {
+  background: #4bc8cd; }
+
+.hor_nav ul li.green ul a:hover {
+  background: #afd741; }
 
 .hor_nav ul li ul {
   width: 180px;
@@ -93,12 +130,14 @@ header .main-logo {
   width: 100%; }
 
 .hor_nav ul li:hover > ul {
+  background: white;
   opacity: 1;
   visibility: visible;
   margin: 0; }
 
 .hor_nav ul li ul li:hover > ul {
-  margin-left: 35px; }
+  margin-left: 35px;
+  background: white; }
 
 .hor_nav {
   display: none; }
