@@ -33,7 +33,9 @@ video {
   background-size: cover; }
 
 /***********************************************/
-/********* HEADER **********/
+body, html {
+  height: 100%; }
+
 header {
   background: black;
   height: 60px;
@@ -64,6 +66,26 @@ nav ul li a:active {
   background: #444444; }
 
 /**** CENTERED TEXT ****/
+.main {
+  text-align: center;
+  height: 80%;
+  position: relative; }
+
+.va-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: table; }
+
+.va {
+  display: table-cell; }
+
+.va-m {
+  vertical-align: middle; }
+
+.va-m span {
+  background: red; }
+
 /******** BUTTONS ON BOTTOM ******/
 .main-buttons {
   position: absolute;

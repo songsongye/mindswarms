@@ -48,9 +48,12 @@ video {
 /***********************************************/
 
 
+body, html {
+  height: 100%;
+}
 
 
-/********* HEADER **********/
+// /********* HEADER **********/
 
 header {
 	background: $black;
@@ -95,6 +98,31 @@ nav ul li a:active {
 
 
 
+
+.main {
+  text-align: center;
+  height: 80%;
+  position: relative;
+}
+
+.va-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.va {
+  display: table-cell;
+}
+
+.va-m {
+  vertical-align: middle;
+}
+
+.va-m span {
+	background: red;
+}
 
 
 /******** BUTTONS ON BOTTOM ******/
