@@ -127,7 +127,7 @@ header .main-logo {
 /**** CENTERED TEXT ****/
 .main {
   text-align: center;
-  height: 80%;
+  height: 70%;
   position: relative; }
 
 .va-wrap {
@@ -211,6 +211,9 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
   .hor_nav {
     display: block; }
+
+  .main {
+    height: 80%; }
 
   .main h1 {
     font-size: 6em;
