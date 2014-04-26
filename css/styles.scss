@@ -1,0 +1,183 @@
+/* Testing */
+
+$white: #FFFFFF;
+$black: #000000;
+$gray: #e1e1e1;
+$darkgray: #444444;
+$green: rgba(175,215,65,1);
+$blue: rgba(75,200,205,1);
+
+/****** VIDEO BACKGROUND *******/
+
+/* IE 8 SUPPORT */
+video { display: block; }
+/* END IE 8 SUPPORT*/
+
+video#video-background {
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -100;
+	background: url('../img/background-placeholder.jpg') no-repeat;
+	background-size: cover;
+}
+
+video {
+	display: none;
+}
+
+.mobile-background {
+	position: absolute; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -100;
+	background: url('../img/background-placeholder.jpg') no-repeat;
+	background-size: cover;
+}
+
+
+
+/***********************************************/
+
+
+
+
+/********* HEADER **********/
+
+header {
+	background: $black;
+	height: 60px;
+	line-height: 60px;
+}
+
+header .main-logo {
+	margin: 0;
+}
+
+
+/***** NAVIGATION *****/
+
+nav ul {
+	float: right;
+	margin: 0;
+}
+
+nav ul li {
+	display:inline-block;
+	list-style: none;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+	display: block;
+	text-decoration: none;
+	color: $gray;
+	font-size: 1.1em;
+	padding: 0 30px;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+	background: $darkgray;
+}
+
+
+
+/**** CENTERED TEXT ****/
+
+
+
+
+
+/******** BUTTONS ON BOTTOM ******/
+
+.main-buttons {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+div.main-buttons section.col-sm-6 {
+	padding: 0;
+}
+
+.main-buttons a:link,
+.main-buttons a:visited {
+	display: block;
+	height: 60px;
+	color: $white;
+	text-decoration: none;
+	line-height: 60px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+div.main-buttons section.col-sm-6:first-child a:link,
+div.main-buttons section.col-sm-6:first-child a:visited {
+	background: $blue;
+}
+
+div.main-buttons section.col-sm-6:first-child a:hover,
+div.main-buttons section.col-sm-6:first-child a:active {
+	background: $white;
+	color: $blue;
+}
+
+div.main-buttons section.col-sm-6:last-child a:link,
+div.main-buttons section.col-sm-6:last-child a:visited {
+	background: $green;
+}
+
+div.main-buttons section.col-sm-6:last-child a:hover,
+div.main-buttons section.col-sm-6:last-child a:active {
+	background: $white;
+	color: $green;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+	video {
+		display: block;
+	}
+
+	.mobile-background {
+		display: none;
+	}
+
+	.main-buttons a:link,
+	.main-buttons a:visited {
+		height: 80px;
+		line-height: 80px;
+		font-size: 1.4em;
+	}
+
+}
+@media (min-width: 992px) {
+
+	.main-buttons a:link,
+	.main-buttons a:visited {
+		height: 80px;
+		line-height: 80px;
+		font-size: 2em;
+	}
+
+}
+@media (min-width: 1200px) {
+
+}
+
