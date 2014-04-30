@@ -35,8 +35,9 @@ video#video-background {
 	width: auto; 
 	height: auto; 
 	z-index: -100;
-	background: url('../img/background-placeholder.jpg') no-repeat;
-	background-size: cover;
+	background: $black;
+	// background: url('../img/background-placeholder.jpg') no-repeat;
+	// background-size: cover;
 }
 
 video {
@@ -52,8 +53,9 @@ video {
 	width: auto; 
 	height: auto; 
 	z-index: -100;
-	background: url('../img/background-placeholder.jpg') no-repeat;
-	background-size: cover;
+	background: $black;
+	// background: url('../img/background-placeholder.jpg') no-repeat;
+	// background-size: cover;
 }
 
 
