@@ -389,8 +389,6 @@ header a:active {
 	background: -o-linear-gradient(left, #3e3e3e, #1e1d1d);
 }
 
-
-
 .large {
 	height: 175px;
 	width: 100%;
@@ -667,6 +665,11 @@ div.main-buttons section.col-sm-6:last-child a:active {
 		width: 33.333333334%;
 	}
 
+	.small-vid {
+		float: right;
+		width: 33.333333334%;
+	}
+
 	.button:link,
 	.button:visited {
 		line-height: 45px;
@@ -743,6 +746,11 @@ div.main-buttons section.col-sm-6:last-child a:active {
 		width: 33.333333334%;
 	}
 
+	.small-vid {
+		float: right;
+		width: 33.333333334%;
+	}
+
 	.button:link,
 	.button:visited {
 		line-height: 55px;
@@ -795,6 +803,11 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 	.small {
 		height: 200px;
+		float: right;
+		width: 33.333333334%;
+	}
+
+	.small-vid {
 		float: right;
 		width: 33.333333334%;
 	}

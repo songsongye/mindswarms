@@ -512,6 +512,10 @@ div.main-buttons section.col-sm-6:last-child a:active {
     float: right;
     width: 33.333333334%; }
 
+  .small-vid {
+    float: right;
+    width: 33.333333334%; }
+
   .button:link,
   .button:visited {
     line-height: 45px;
@@ -571,6 +575,10 @@ div.main-buttons section.col-sm-6:last-child a:active {
     float: right;
     width: 33.333333334%; }
 
+  .small-vid {
+    float: right;
+    width: 33.333333334%; }
+
   .button:link,
   .button:visited {
     line-height: 55px;
@@ -610,6 +618,10 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
   .small {
     height: 200px;
+    float: right;
+    width: 33.333333334%; }
+
+  .small-vid {
     float: right;
     width: 33.333333334%; }
 
