@@ -1,11 +1,11 @@
 /* Testing */
 /****** VIDEO BACKGROUND *******/
 /* IE 8 SUPPORT */
-video {
+.home video {
   display: block; }
 
 /* END IE 8 SUPPORT*/
-video#video-background {
+.home video#video-background {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -16,7 +16,7 @@ video#video-background {
   z-index: -100;
   background: black; }
 
-video {
+.home video {
   display: none; }
 
 .mobile-background {
@@ -314,14 +314,17 @@ header a:active {
   left: 0;
   opacity: .5;
   cursor: pointer;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  transition: all 0.2s linear; }
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  -ms-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear; }
 
 .overlay:hover {
   opacity: 0; }
+
+.main video {
+  width: 100%; }
 
 .main .row:nth-child(2) section:last-child .button:last-child:link,
 .main .row:nth-child(2) section:last-child .button:last-child:visited {
@@ -456,7 +459,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
   color: white; }
 
 @media (min-width: 768px) {
-  video {
+  .home video {
     display: block; }
 
   .mobile-background {
