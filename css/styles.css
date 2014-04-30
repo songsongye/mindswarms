@@ -14,8 +14,7 @@ video#video-background {
   width: auto;
   height: auto;
   z-index: -100;
-  background: url("../img/background-placeholder.jpg") no-repeat;
-  background-size: cover; }
+  background: black; }
 
 video {
   display: none; }
@@ -29,8 +28,7 @@ video {
   width: auto;
   height: auto;
   z-index: -100;
-  background: url("../img/background-placeholder.jpg") no-repeat;
-  background-size: cover; }
+  background: black; }
 
 /***********************************************/
 body.home, html {
