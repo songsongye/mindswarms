@@ -19,14 +19,22 @@ $copyrightgray: #4d4d4d;
 	transition: all $sec linear;
 }
 
+@mixin transition-opacity($sec) {
+	-webkit-transition: opacity $sec linear;
+	-moz-transition: opacity $sec linear;
+	-o-transition: opacity $sec linear;
+	-ms-transition: opacity $sec linear;
+	transition: opacity $sec linear;
+}
+
 
 /****** VIDEO BACKGROUND *******/
 
 /* IE 8 SUPPORT */
-video { display: block; }
+.home video { display: block; }
 /* END IE 8 SUPPORT*/
 
-video#video-background {
+.home video#video-background {
 	position: fixed; 
 	right: 0; 
 	bottom: 0;
@@ -35,11 +43,12 @@ video#video-background {
 	width: auto; 
 	height: auto; 
 	z-index: -100;
-	background: url('../img/background-placeholder.jpg') no-repeat;
-	background-size: cover;
+	background: $black;
+	// background: url('../img/background-placeholder.jpg') no-repeat;
+	// background-size: cover;
 }
 
-video {
+.home video {
 	display: none;
 }
 
@@ -52,8 +61,9 @@ video {
 	width: auto; 
 	height: auto; 
 	z-index: -100;
-	background: url('../img/background-placeholder.jpg') no-repeat;
-	background-size: cover;
+	background: $black;
+	// background: url('../img/background-placeholder.jpg') no-repeat;
+	// background-size: cover;
 }
 
 
@@ -411,11 +421,15 @@ header a:active {
 	left: 0;
 	opacity: .5;
 	cursor: pointer;
-	@include transition(.2s);
+	@include transition-opacity(.2s);
 }
 
 .overlay:hover {
 	opacity: 0;
+}
+
+.main video {
+	width: 100%;
 }
 
 .main .row:nth-child(2) section:last-child .button:last-child:link,
@@ -585,7 +599,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 @media (min-width: 768px) {
 
-	video {
+	.home video {
 		display: block;
 	}
 
@@ -647,6 +661,11 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	
 	.small {
 		height: 150px;
+		float: right;
+		width: 33.333333334%;
+	}
+
+	.small-vid {
 		float: right;
 		width: 33.333333334%;
 	}
@@ -727,6 +746,11 @@ div.main-buttons section.col-sm-6:last-child a:active {
 		width: 33.333333334%;
 	}
 
+	.small-vid {
+		float: right;
+		width: 33.333333334%;
+	}
+
 	.button:link,
 	.button:visited {
 		line-height: 55px;
@@ -779,6 +803,11 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 	.small {
 		height: 200px;
+		float: right;
+		width: 33.333333334%;
+	}
+
+	.small-vid {
 		float: right;
 		width: 33.333333334%;
 	}
