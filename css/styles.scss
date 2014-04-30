@@ -98,11 +98,24 @@ body.home, html {
 header {
 	background: $black;
 	line-height: 60px;
+	height: 60px;
 }
 
 header .main-logo {
 	margin: 0;
 	color: $white;
+}
+
+header a:link .main-logo,
+header a:visited .main-logo {
+	font-size: 2.5em;
+}
+
+header a:link,
+header a:visited,
+header a:hover,
+header a:active {
+	text-decoration: none;
 }
 
 
@@ -118,6 +131,7 @@ header .main-logo {
 	display: inline-block;
 	list-style: none;
 	margin: 0;
+	height: 60px;
 }
 
 .hor_nav ul li a:link, 
@@ -128,6 +142,7 @@ header .main-logo {
 	padding: 0 20px;
 	color: $white;
 	text-decoration: none;
+	font-size: 1.3em;
 }
 
 .hor_nav ul li.green a:hover,
@@ -195,12 +210,14 @@ header .main-logo {
 }
 
 .hor_nav ul li ul {
-	width: 180px;
+	width: 162px;
 	opacity: 0;
 	position: absolute;
 	visibility:hidden;
 	z-index:50;
 	padding: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	background: $white;
 }
 
@@ -212,14 +229,15 @@ header .main-logo {
 	padding: 0;
 	margin: 0;
 	background: $white;
-	height: 30px;
-	line-height: 30px;
+	height: 40px;
+	line-height: 40px;
 }
 
 .hor_nav ul li ul li a:link, 
 .hor_nav ul li ul li a:visited {
 	display: block;
 	width: 100%;
+	font-size: 1.1em;
 }
 
 .hor_nav ul li ul li a:hover, 
@@ -311,12 +329,15 @@ header .main-logo {
 /********* MAIN *********/
 
 .main h1 {
-	font-size: 2em;
+	font-size: 3em;
 	color: $white;
+	padding: 0;
+	margin: 0;
+	line-height: 50px;
 }
 
 .main p {
-	font-size: 1em;
+	font-size: 1.2em;
 	color: $white;
 }
 
@@ -324,7 +345,15 @@ header .main-logo {
 .main .row:nth-child(5),
 .main .row:nth-child(8),
 .main .row:nth-child(9) {
-	margin-bottom: 100px;
+	margin-bottom: 60px;
+}
+
+.main .row:nth-child(1) {
+	margin-top: 50px;
+}
+
+.main .video-container {
+	position: relative;
 }
 
 .main .video-container img {
@@ -332,53 +361,13 @@ header .main-logo {
 }
 
 .main .container .row:nth-child(2) section:nth-child(2) a:link,
-.main .container .row:nth-child(2) section:nth-child(2) a:visited,
-.main .container .row:nth-child(5) section a:link,
-.main .container .row:nth-child(5) section a:visited,
-.main .container .row:nth-child(8) section a:link,
-.main .container .row:nth-child(8) section a:visited {
-	display: block;
-	color: $white;
-	text-decoration: none;
-	text-align: center;
-	line-height: 50px;
-	width: 100%;
-	@include transition(.2s);
-}
-
-.main .container .row:nth-child(2) section:nth-child(2) a:link,
 .main .container .row:nth-child(2) section:nth-child(2) a:visited {
 	margin: 10px 0;
 }
 
-.main .container .row:nth-child(2) section:nth-child(2) a:nth-child(1):link,
-.main .container .row:nth-child(2) section:nth-child(2) a:nth-child(1):visited,
-.main .container .row:nth-child(5) section a:link,
-.main .container .row:nth-child(5) section a:visited,
-.main .container .row:nth-child(8) section a:link,
-.main .container .row:nth-child(8) section a:visited {
-	background: $green;
-}
-
-.main .container .row:nth-child(2) section:nth-child(2) a:nth-child(1):hover,
-.main .container .row:nth-child(2) section:nth-child(2) a:nth-child(1):active,
-.main .container .row:nth-child(5) section a:hover,
-.main .container .row:nth-child(5) section a:active,
-.main .container .row:nth-child(8) section a:hover,
-.main .container .row:nth-child(8) section a:active  {
-	background: $white;
-	color: $green;
-}
-
-.main .container .row:nth-child(2) section:nth-child(2) a:nth-child(2):link,
-.main .container .row:nth-child(2) section:nth-child(2) a:nth-child(2):visited {
-	background: $black;
-}
-
-.main .container .row:nth-child(2) section:nth-child(2) a:nth-child(2):hover,
-.main .container .row:nth-child(2) section:nth-child(2) a:nth-child(2):active {
-	background: $white;
-	color: $black;
+.main .container .row:nth-child(2) section:last-child .button:first-child {
+	margin-top: 40px;
+	margin-bottom: 10px;
 }
 
 .main .graybox {
@@ -400,6 +389,98 @@ header .main-logo {
 	height: 100px;
 }
 
+.researchers .overlay {
+	background: $blue;
+}
+
+.consumers .overlay {
+	background: $green;
+}
+
+.blog .overlay {
+	background: $orange;
+}
+
+.overlay {
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: .5;
+	cursor: pointer;
+	@include transition(.2s);
+}
+
+.overlay:hover {
+	opacity: 0;
+}
+
+.main .row:nth-child(2) section:last-child .button:last-child:link,
+.main .row:nth-child(2) section:last-child .button:last-child:visited {
+	background: $black;
+	color: $white;
+}
+
+.main .row:nth-child(2) section:last-child .button:last-child:hover,
+.main .row:nth-child(2) section:last-child .button:last-child:active {
+	background: $darkgray;
+	color: $white;
+}
+
+.researchers .button:link,
+.researchers .button:visited {
+	background: $blue;
+	color: $white;
+}
+
+.researchers .button:hover,
+.researchers .button:active {
+	background: $darkgray;
+	color: $white;
+}
+
+.consumers .button:link,
+.consumers .button:visited {
+	background: $green;
+	color: $white;
+}
+
+.consumers .button:hover,
+.consumers .button:active {
+	background: $darkgray;
+	color: $white;
+}
+
+.blog .button:link,
+.blog .button:visited {
+	background: $orange;
+	color: $white;
+}
+
+.blog .button:hover,
+.blog .button:active {
+	background: $darkgray;
+	color: $white;
+}
+
+.button:link,
+.button:visited {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	width: 100%;
+	@include transition(.2s);
+	font-size: 1.3em;
+}
+
+.button:hover,
+.button:active {
+	text-decoration: none;
+}
 
 /******** FOOTER ********/
 
@@ -409,9 +490,20 @@ footer {
 }
 
 footer h3 {
-	color: $green;
 	margin: 0;
 	padding: 0;
+}
+
+.researchers footer h3 {
+	color: $blue;
+}
+
+.consumers footer h3 {
+	color: $blue;
+}
+
+.blog footer h3 {
+	color: $blue;
 }
 
 footer ul {
@@ -469,8 +561,8 @@ div.main-buttons section.col-sm-6:first-child a:visited {
 
 div.main-buttons section.col-sm-6:first-child a:hover,
 div.main-buttons section.col-sm-6:first-child a:active {
-	background: $white;
-	color: $blue;
+	background: $darkgray;
+	color: $white;
 }
 
 div.main-buttons section.col-sm-6:last-child a:link,
@@ -480,8 +572,8 @@ div.main-buttons section.col-sm-6:last-child a:visited {
 
 div.main-buttons section.col-sm-6:last-child a:hover,
 div.main-buttons section.col-sm-6:last-child a:active {
-	background: $white;
-	color: $green;
+	background: $darkgray;
+	color: $white;
 }
 
 
@@ -530,11 +622,12 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	}
 
 	.main h1 {
-		font-size: 3em;
+		font-size: 2.9em;
+		line-height: 50px;
 	}
 
 	.main p {
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
 
 	.large {
@@ -553,9 +646,35 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	}
 	
 	.small {
-		height: 200px;
+		height: 150px;
 		float: right;
 		width: 33.333333334%;
+	}
+
+	.button:link,
+	.button:visited {
+		line-height: 45px;
+		font-size: 1.1em;
+	}
+
+	.hor_nav ul li a:link, 
+	.hor_nav ul li a:visited {
+		font-size: 1.1em;
+	}
+
+	.main .container .row:nth-child(2) section:last-child .button:first-child {
+		margin-top: 25px;
+	}
+
+	.main .row:nth-child(1) {
+		margin-top: 100px;
+	}
+
+	.main .row:nth-child(2),
+	.main .row:nth-child(5),
+	.main .row:nth-child(8),
+	.main .row:nth-child(9) {
+		margin-bottom: 80px;
 	}
 
 }
@@ -583,7 +702,12 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	}
 
 	.main h1 {
-		font-size: 3.5em;
+		font-size: 3.8em;
+		line-height: 60px;
+	}
+
+	.main p {
+		font-size: 1.4em;
 	}
 
 	.large {
@@ -603,12 +727,48 @@ div.main-buttons section.col-sm-6:last-child a:active {
 		width: 33.333333334%;
 	}
 
+	.button:link,
+	.button:visited {
+		line-height: 55px;
+		font-size: 1.3em;
+	}
+
+	.main .container .row:nth-child(2) section:last-child .button:first-child {
+		margin-top: 40px;
+	}
+
+	.hor_nav ul li a:link, 
+	.hor_nav ul li a:visited {
+		font-size: 1.2em;
+	}
+
+	.main .row:nth-child(1) {
+		margin-top: 125px;
+	}
+
+	.main .row:nth-child(2),
+	.main .row:nth-child(5),
+	.main .row:nth-child(8),
+	.main .row:nth-child(9) {
+		margin-bottom: 90px;
+	}
+
 }
 @media (min-width: 1200px) {
 
 	.large {
 		height: 300px;
 	}
+
+	.main h1 {
+		font-size: 4.7em;
+		line-height: 70px;
+	}
+
+	.main p {
+		font-size: 1.8em;
+	}
+
 
 	.main .container .row:nth-child(5) section a:link,
 	.main .container .row:nth-child(5) section a:visited,
@@ -621,6 +781,32 @@ div.main-buttons section.col-sm-6:last-child a:active {
 		height: 200px;
 		float: right;
 		width: 33.333333334%;
+	}
+
+	.button:link,
+	.button:visited {
+		line-height: 70px;
+		font-size: 1.5em;
+	}
+
+	.main .container .row:nth-child(2) section:last-child .button:first-child {
+		margin-top: 45px;
+	}
+
+	.hor_nav ul li a:link, 
+	.hor_nav ul li a:visited {
+		font-size: 1.3em;
+	}
+
+	.main .row:nth-child(1) {
+		margin-top: 150px;
+	}
+
+	.main .row:nth-child(2),
+	.main .row:nth-child(5),
+	.main .row:nth-child(8),
+	.main .row:nth-child(9) {
+		margin-bottom: 100px;
 	}
 }
 
