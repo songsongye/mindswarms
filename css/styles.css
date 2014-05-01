@@ -110,7 +110,12 @@ header a:active {
   padding: 0 20px;
   color: white;
   text-decoration: none;
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
 
 .hor_nav ul li.green a:hover,
 .hor_nav ul li.green a:active {
@@ -128,9 +133,14 @@ header a:active {
 .hor_nav ul li.signup a:visited {
   background: #444444; }
 
+.hor_nav ul li.signup a:hover,
+.hor_nav ul li.signup a:active {
+  background: #e1e1e1; }
+
 .hor_nav ul li a:hover,
 .hor_nav ul li a:active {
-  background: #444444; }
+  background: #444444;
+  color: black; }
 
 .hor_nav ul li.blue:hover a {
   background: #4bc8cd; }
@@ -268,11 +278,11 @@ header a:active {
 
 /********* MAIN *********/
 .main h1 {
-  font-size: 3em;
+  font-size: 2.6em;
   color: white;
   padding: 0;
   margin: 0;
-  line-height: 50px;
+  line-height: 35px;
   font-family: "SourceSansPro-Bold", sans-serif; }
 
 .main p {
@@ -329,10 +339,19 @@ header a:active {
 
 .main .small p {
   font-size: 1.5em;
-  padding: 40px;
+  padding: 40px 40px 20px 40px;
   color: #a1a1a1;
   text-align: center;
-  margin: 0; }
+  margin: 0;
+  font-family: "SourceSansPro-Italic", sans-serif;
+  line-height: 30px; }
+
+.main .small p + span {
+  display: block;
+  text-align: right;
+  color: white;
+  padding: 0 40px 40px 40px;
+  font-size: 1.2em; }
 
 .researchers .overlay {
   background: #4bc8cd; }
@@ -472,13 +491,25 @@ footer h3 {
 .researchers .main .bottom a:visited {
   color: #4bc8cd; }
 
+.researchers .main .bottom a:hover,
+.researchers .main .bottom a:active {
+  color: white; }
+
 .consumers .main .bottom a:link,
 .consumers .main .bottom a:visited {
   color: #afd741; }
 
+.consumers .main .bottom a:hover,
+.consumers .main .bottom a:active {
+  color: white; }
+
 .blog .main .bottom a:link,
 .blog .main .bottom a:visited {
   color: #f59128; }
+
+.blog .main .bottom a:hover,
+.blog .main .bottom a:active {
+  color: white; }
 
 .main .bottom {
   min-height: 300px; }
@@ -500,9 +531,17 @@ footer a:visited {
   text-decoration: none;
   font-size: 1.2em; }
 
-footer a:hover,
-footer a:active {
+.researchers footer a:hover,
+.researchers footer a:active {
   color: #4bc8cd; }
+
+.consumers footer a:hover,
+.consumers footer a:active {
+  color: #afd741; }
+
+.blog footer a:hover,
+.blog footer a:active {
+  color: #f59128; }
 
 .copyright {
   background: #4d4d4d; }
@@ -571,7 +610,12 @@ div.main-buttons section.col-sm-6 {
   text-decoration: none;
   line-height: 60px;
   text-align: center;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
 
 div.main-buttons section.col-sm-6:first-child a:link,
 div.main-buttons section.col-sm-6:first-child a:visited {
@@ -634,7 +678,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
     line-height: 50px; }
 
   .main p {
-    font-size: 1.1em; }
+    font-size: 1.2em;
+    margin-top: 5px; }
 
   .large {
     width: 33.333333334%;
@@ -658,7 +703,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
     width: 33.333333334%; }
 
   .main .large-vid video {
-    height: 529px; }
+    height: 405px; }
 
   .button:link,
   .button:visited {
@@ -704,7 +749,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
     margin-bottom: 10px; }
 
   .main .small p {
-    font-size: 1.3em; }
+    font-size: 1.3em;
+    line-height: 20px; }
 
   .main .bottom a:link,
   .main .bottom a:visited {
@@ -742,7 +788,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
     line-height: 60px; }
 
   .main p {
-    font-size: 1.4em; }
+    font-size: 1.4em;
+    margin-top: 30px; }
 
   .large {
     min-height: 360px; }
@@ -762,7 +809,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
     width: 33.333333334%; }
 
   .main .large-vid video {
-    height: 641px; }
+    height: 529px; }
 
   .button:link,
   .button:visited {
@@ -802,7 +849,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
     margin-bottom: 10px; }
 
   .main .small p {
-    font-size: 1.4em; }
+    font-size: 1.4em;
+    line-height: 25px; }
 
   .main .bottom a:link,
   .main .bottom a:visited {
@@ -810,7 +858,10 @@ div.main-buttons section.col-sm-6:last-child a:active {
     padding-top: 40px; }
 
   .main .bottom {
-    min-height: 250px; } }
+    min-height: 250px; }
+
+  .main .bottom h3 {
+    font-size: 1.7em; } }
 @media (min-width: 1200px) {
   .large {
     min-height: 400px; }
@@ -827,6 +878,9 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
   .hor_nav ul li:nth-child(2) ul {
     width: 146px; }
+
+  .main .large-vid video {
+    height: 641px; }
 
   .main .container .row:nth-child(5) section a:link,
   .main .container .row:nth-child(5) section a:visited,
@@ -880,30 +934,34 @@ div.main-buttons section.col-sm-6:last-child a:active {
     margin-bottom: 10px; }
 
   .main .small p {
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    line-height: 30px; }
 
   .main .bottom {
     min-height: 300px; }
+
+  .main .bottom h3 {
+    font-size: 1.9em; }
 
   .main .bottom a:link,
   .main .bottom a:visited {
     font-size: 1.5em;
     padding-top: 40px; } }
 @font-face {
+  font-family: 'SourceSansPro-Italic';
+  src: url("../fonts/SourceSansPro/SourceSansPro-Italic.ttf") format("truetype"); }
+@font-face {
   font-family: 'SourceSansPro-Regular';
   src: url("../fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype"); }
-
 @font-face {
   font-family: 'SourceSansPro-Bold';
   src: url("../fonts/SourceSansPro/SourceSansPro-Semibold.ttf") format("truetype"); }
-
 @font-face {
   font-family: 'mindswarms';
   src: url("../fonts/mindswarms.eot?ejbpfy");
   src: url("../fonts/mindswarms.eot?#iefixejbpfy") format("embedded-opentype"), url("../fonts/mindswarms.woff?ejbpfy") format("woff"), url("../fonts/mindswarms.ttf?ejbpfy") format("truetype"), url("../fonts/mindswarms.svg?ejbpfy#mindswarms") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'mindswarms';
   speak: none;

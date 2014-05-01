@@ -29,6 +29,7 @@ $copyrightgray: #4d4d4d;
 
 $ssproregular: 'SourceSansPro-Regular', sans-serif;
 $ssprobold: 'SourceSansPro-Bold', sans-serif;
+$ssproitalic: 'SourceSansPro-Italic', sans-serif;
 
 
 /****** VIDEO BACKGROUND *******/
@@ -169,6 +170,7 @@ header a:active {
 	color: $white;
 	text-decoration: none;
 	font-size: 1.3em;
+	@include transition(.2s);
 }
 
 .hor_nav ul li.green a:hover,
@@ -191,9 +193,15 @@ header a:active {
 	background: $darkgray;
 }
 
+.hor_nav ul li.signup a:hover,
+.hor_nav ul li.signup a:active {
+	background: $gray;
+}
+
 .hor_nav ul li a:hover, 
 .hor_nav ul li a:active {
 	background: $darkgray;
+	color: $black;
 }
 
 .hor_nav ul li.blue:hover a {
@@ -367,11 +375,11 @@ header a:active {
 /********* MAIN *********/
 
 .main h1 {
-	font-size: 3em;
+	font-size: 2.6em;
 	color: $white;
 	padding: 0;
 	margin: 0;
-	line-height: 50px;
+	line-height: 35px;
 	font-family: $ssprobold;
 }
 
@@ -441,10 +449,20 @@ header a:active {
 
 .main .small p {
 	font-size: 1.5em;
-	padding: 40px;
+	padding: 40px 40px 20px 40px;
 	color: #a1a1a1;
 	text-align: center;
 	margin: 0;
+	font-family: $ssproitalic;
+	line-height: 30px;
+}
+
+.main .small p + span {
+	display: block;
+	text-align: right;
+	color: $white;
+	padding: 0 40px 40px 40px;
+	font-size: 1.2em;
 }
 
 .researchers .overlay {
@@ -603,14 +621,29 @@ footer h3,{
 	color: $blue;
 }
 
+.researchers .main .bottom a:hover,
+.researchers .main .bottom a:active {
+	color: $white;;
+}
+
 .consumers .main .bottom a:link,
 .consumers .main .bottom a:visited {
 	color: $green;
 }
 
+.consumers .main .bottom a:hover,
+.consumers .main .bottom a:active {
+	color: $white;
+}
+
 .blog .main .bottom a:link,
 .blog .main .bottom a:visited {
 	color: $orange;
+}
+
+.blog .main .bottom a:hover,
+.blog .main .bottom a:active {
+	color: $white;
 }
 
 .main .bottom {
@@ -638,9 +671,19 @@ footer a:visited {
 	font-size: 1.2em;
 }
 
-footer a:hover,
-footer a:active {
+.researchers footer a:hover,
+.researchers footer a:active {
 	color: $blue;
+}
+
+.consumers footer a:hover,
+.consumers footer a:active {
+	color: $green;
+}
+
+.blog footer a:hover,
+.blog footer a:active {
+	color: $orange;
 }
 
 .copyright {
@@ -720,6 +763,7 @@ div.main-buttons section.col-sm-6 {
 	line-height: 60px;
 	text-align: center;
 	font-size: 1.2em;
+	@include transition(.2s);
 }
 
 div.main-buttons section.col-sm-6:first-child a:link,
@@ -807,7 +851,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	}
 
 	.main p {
-		font-size: 1.1em;
+		font-size: 1.2em;
+		margin-top: 5px;
 	}
 
 	.large {
@@ -836,7 +881,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	}
 
 	.main .large-vid video {
-		height: 529px;
+		height: 405px;
 	}
 
 	.button:link,
@@ -894,6 +939,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 	.main .small p {
 		font-size: 1.3em;
+		line-height: 20px;
 	}
 
 	.main .bottom a:link,
@@ -945,6 +991,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 	.main p {
 		font-size: 1.4em;
+		margin-top: 30px;
 	}
 
 	.large {
@@ -969,7 +1016,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	}
 
 	.main .large-vid video {
-		height: 641px;
+		height: 529px;
 	}
 
 	.button:link,
@@ -1019,6 +1066,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 	.main .small p {
 		font-size: 1.4em;
+		line-height: 25px;
 	}
 
 	.main .bottom a:link,
@@ -1029,6 +1077,10 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 	.main .bottom {
 		min-height: 250px;
+	}
+
+	.main .bottom h3 {
+		font-size: 1.7em;
 	}
 
 }
@@ -1053,6 +1105,10 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 	.hor_nav ul li:nth-child(2) ul {
 		width: 146px;
+	}
+
+	.main .large-vid video {
+		height: 641px;
 	}
 
 
@@ -1120,10 +1176,15 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 	.main .small p {
 		font-size: 1.5em;
+		line-height: 30px;
 	}
 
 	.main .bottom {
 		min-height: 300px;
+	}
+
+	.main .bottom h3 {
+		font-size: 1.9em;
 	}
 
 	.main .bottom a:link,
@@ -1134,6 +1195,10 @@ div.main-buttons section.col-sm-6:last-child a:active {
 }
 
 
+@font-face {
+  font-family: 'SourceSansPro-Italic';
+  src: url('../fonts/SourceSansPro/SourceSansPro-Italic.ttf') format('truetype');
+}
 
 @font-face {
   font-family: 'SourceSansPro-Regular';
