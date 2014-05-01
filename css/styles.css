@@ -654,6 +654,9 @@ div.main-buttons section.col-sm-6:last-child a:active {
     float: left;
     width: 33.333333334%; }
 
+  .main .large-vid video {
+    height: 529px; }
+
   .button:link,
   .button:visited {
     line-height: 45px;
@@ -754,6 +757,9 @@ div.main-buttons section.col-sm-6:last-child a:active {
   .small-vid {
     float: right;
     width: 33.333333334%; }
+
+  .main .large-vid video {
+    height: 641px; }
 
   .button:link,
   .button:visited {
