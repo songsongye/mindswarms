@@ -1,10 +1,6 @@
-/* Testing */
-/****** VIDEO BACKGROUND *******/
-/* IE 8 SUPPORT */
 .home video {
   display: block; }
 
-/* END IE 8 SUPPORT*/
 .home video#video-background {
   position: fixed;
   right: 0;
@@ -38,7 +34,6 @@
 .relative {
   position: relative; }
 
-/***********************************************/
 body.home, html {
   height: 100%; }
 
@@ -69,7 +64,6 @@ body {
   background: -ms-linear-gradient(top, #e58925, #9a4e00);
   background: -o-linear-gradient(top, #e58925, #9a4e00); }
 
-/********* HEADER **********/
 header {
   background: black;
   line-height: 60px;
@@ -90,7 +84,6 @@ header a:hover,
 header a:active {
   text-decoration: none; }
 
-/***** NAVIGATION *****/
 .hor_nav ul {
   margin: 0;
   padding: 0;
@@ -244,7 +237,6 @@ header a:active {
   background: #333333;
   line-height: 60px; }
 
-/**** CENTERED TEXT ****/
 .title-block {
   text-align: center;
   height: 60%;
@@ -276,7 +268,6 @@ header a:active {
   font-size: 1em;
   margin: 0; }
 
-/********* MAIN *********/
 .main h1 {
   font-size: 2.6em;
   color: white;
@@ -352,6 +343,25 @@ header a:active {
   color: white;
   padding: 0 40px 40px 40px;
   font-size: 1.2em; }
+
+.main h3 {
+  margin: 0 40px;
+  padding: 0;
+  font-size: 2em;
+  line-height: 30px;
+  margin-bottom: 10px; }
+
+.main .bottom h3 {
+  padding-top: 40px;
+  color: white; }
+
+.main .bottom a:link,
+.main .bottom a:visited {
+  display: block;
+  font-size: 1.5em;
+  padding: 40px;
+  text-align: right;
+  text-decoration: none; }
 
 .researchers .overlay {
   background: #4bc8cd; }
@@ -444,7 +454,6 @@ header a:active {
 .button:active {
   text-decoration: none; }
 
-/******** FOOTER ********/
 footer {
   background: #434343;
   padding-bottom: 50px; }
@@ -455,13 +464,6 @@ footer h3 {
   margin-bottom: 20px;
   font-size: 1.5em;
   margin-top: 50px; }
-
-.main h3 {
-  margin: 0 40px;
-  padding: 0;
-  font-size: 2em;
-  line-height: 30px;
-  margin-bottom: 10px; }
 
 .researchers footer h3,
 .researchers .main h3 {
@@ -474,18 +476,6 @@ footer h3 {
 .blog footer h3,
 .blog .main h3 {
   color: #f59128; }
-
-.main .bottom h3 {
-  padding-top: 40px;
-  color: white; }
-
-.main .bottom a:link,
-.main .bottom a:visited {
-  display: block;
-  font-size: 1.5em;
-  padding: 40px;
-  text-align: right;
-  text-decoration: none; }
 
 .researchers .main .bottom a:link,
 .researchers .main .bottom a:visited {
@@ -593,7 +583,6 @@ footer a:visited {
   color: white;
   background: #f59128; }
 
-/******** BUTTONS ON BOTTOM ******/
 .main-buttons {
   position: absolute;
   bottom: 0;

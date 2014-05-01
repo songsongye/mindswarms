@@ -1,4 +1,4 @@
-/* Testing */
+// COLORS
 
 $white: #FFFFFF;
 $black: #000000;
@@ -10,6 +10,7 @@ $orange: rgba(245,145,40,1);
 $footergray: #434343;
 $copyrightgray: #4d4d4d;
 
+// TRANSITION MIXINS
 
 @mixin transition($sec) {
 	-webkit-transition: all $sec linear;
@@ -32,11 +33,11 @@ $ssprobold: 'SourceSansPro-Bold', sans-serif;
 $ssproitalic: 'SourceSansPro-Italic', sans-serif;
 
 
-/****** VIDEO BACKGROUND *******/
+// VIDEO BACKGROUNDS
 
-/* IE 8 SUPPORT */
+// IE 8 SUPPORT
 .home video { display: block; }
-/* END IE 8 SUPPORT*/
+// END IE 8 SUPPORT
 
 .home video#video-background {
 	position: fixed; 
@@ -80,8 +81,7 @@ $ssproitalic: 'SourceSansPro-Italic', sans-serif;
 
 
 
-/***********************************************/
-
+// DIFFERENT BODY BACKGROUND COLORS/BODY STYLING
 
 body.home, html {
   height: 100%;
@@ -119,7 +119,7 @@ body {
 }
 
 
-/********* HEADER **********/
+// HEADER STYLING/MAIN LOGO
 
 header {
 	background: $black;
@@ -146,7 +146,7 @@ header a:active {
 }
 
 
-/***** NAVIGATION *****/
+// MAIN NAVIGATION STYLING
 
 .hor_nav ul {
 	margin: 0;
@@ -293,6 +293,9 @@ header a:active {
 	display: none;
 }
 
+
+// MOBILE NAVIGATION DROPDOWN
+
 #mobile-nav {
 	position: absolute;
 	display: none;
@@ -332,7 +335,7 @@ header a:active {
 }
 
 
-/**** CENTERED TEXT ****/
+// HOME PAGE CENTERED TEXT BLOCK
 
 .title-block {
   text-align: center;
@@ -372,7 +375,13 @@ header a:active {
 	margin: 0;
 }
 
-/********* MAIN *********/
+
+
+
+
+
+
+// SECONDARY PAGE STYLING (RESEARCHERS/CONSUMERS/BLOG)
 
 .main h1 {
 	font-size: 2.6em;
@@ -463,6 +472,28 @@ header a:active {
 	color: $white;
 	padding: 0 40px 40px 40px;
 	font-size: 1.2em;
+}
+
+.main h3 {
+	margin: 0 40px;
+	padding: 0;
+	font-size: 2em;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.main .bottom h3 {
+	padding-top: 40px;
+	color: $white;
+}
+
+.main .bottom a:link,
+.main .bottom a:visited {
+	display: block;
+	font-size: 1.5em;
+	padding: 40px;
+	text-align: right;
+	text-decoration: none;
 }
 
 .researchers .overlay {
@@ -564,7 +595,9 @@ header a:active {
 	text-decoration: none;
 }
 
-/******** FOOTER ********/
+
+
+// FOOTER STYLING/FOOTER NAVIGATION
 
 footer {
 	background: $footergray;
@@ -577,14 +610,6 @@ footer h3,{
 	margin-bottom: 20px;
 	font-size: 1.5em;
 	margin-top: 50px;
-}
-
-.main h3 {
-	margin: 0 40px;
-	padding: 0;
-	font-size: 2em;
-	line-height: 30px;
-	margin-bottom: 10px;
 }
 
 .researchers footer h3,
@@ -600,20 +625,6 @@ footer h3,{
 .blog footer h3,
 .blog .main h3 {
 	color: $orange;
-}
-
-.main .bottom h3 {
-	padding-top: 40px;
-	color: $white;
-}
-
-.main .bottom a:link,
-.main .bottom a:visited {
-	display: block;
-	font-size: 1.5em;
-	padding: 40px;
-	text-align: right;
-	text-decoration: none;
 }
 
 .researchers .main .bottom a:link,
@@ -686,6 +697,10 @@ footer a:visited {
 	color: $orange;
 }
 
+
+
+// COPYRIGHT BAR/SOCIAL ICONS
+
 .copyright {
 	background: $copyrightgray;
 }
@@ -742,7 +757,7 @@ footer a:visited {
 }
 
 
-/******** BUTTONS ON BOTTOM ******/
+// LARGE BUTTONS ON BOTTOM OF HOME PAGE ONLY
 
 .main-buttons {
 	position: absolute;
@@ -791,7 +806,14 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 
 
-
+//
+//
+//
+// MEDIA QUERIES FOR LARGER THEN MOBILE SIZED SCREENS
+// +768PX SCREENS
+//
+//
+//
 
 
 
@@ -953,6 +975,17 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	}
 
 }
+
+
+//
+//
+//
+// + 992PX SCREENS
+//
+//
+//
+
+
 @media (min-width: 992px) {
 
 	.main-buttons a:link,
@@ -1084,6 +1117,18 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	}
 
 }
+
+
+//
+//
+//
+// + 1200PX SCREENS
+//
+//
+//
+
+
+
 @media (min-width: 1200px) {
 
 	.large {
@@ -1195,6 +1240,10 @@ div.main-buttons section.col-sm-6:last-child a:active {
 }
 
 
+
+// PROVIDED FONTS
+
+
 @font-face {
   font-family: 'SourceSansPro-Italic';
   src: url('../fonts/SourceSansPro/SourceSansPro-Italic.ttf') format('truetype');
@@ -1211,6 +1260,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
 }
 
 
+// ICON FONTS
 
 
 @font-face {
