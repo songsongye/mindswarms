@@ -6,4 +6,10 @@ $(document).ready(function() {
 	  });
 	});
 
+
+	$( ".overlay" ).hover(function() {
+	  $(this).fadeOut( 100 );
+	  $(this).css('display','none');
+	});
+
 });
