@@ -541,14 +541,17 @@ footer a:active {
 
 .researchers .social-icons li a:hover,
 .researchers .scoial-icons li a:active {
+  color: white;
   background: #4bc8cd; }
 
 .consumers .social-icons li a:hover,
 .consumers .scoial-icons li a:active {
+  color: white;
   background: #afd741; }
 
 .blog .social-icons li a:hover,
 .blog .scoial-icons li a:active {
+  color: white;
   background: #f59128; }
 
 /******** BUTTONS ON BOTTOM ******/
