@@ -450,7 +450,7 @@ footer h3 {
 
 .consumers footer h3,
 .consumers .main h3 {
-  color: #4bc8cd; }
+  color: #afd741; }
 
 .blog footer h3,
 .blog .main h3 {
@@ -463,11 +463,22 @@ footer h3 {
 .main .bottom a:link,
 .main .bottom a:visited {
   display: block;
-  color: #4bc8cd;
   font-size: 1.5em;
   padding: 40px;
   text-align: right;
   text-decoration: none; }
+
+.researchers .main .bottom a:link,
+.researchers .main .bottom a:visited {
+  color: #4bc8cd; }
+
+.consumers .main .bottom a:link,
+.consumers .main .bottom a:visited {
+  color: #afd741; }
+
+.blog .main .bottom a:link,
+.blog .main .bottom a:visited {
+  color: #f59128; }
 
 .main .bottom {
   min-height: 300px; }

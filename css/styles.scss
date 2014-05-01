@@ -576,7 +576,7 @@ footer h3,{
 
 .consumers footer h3,
 .consumers .main h3 {
-	color: $blue;
+	color: $green;
 }
 
 .blog footer h3,
@@ -592,11 +592,25 @@ footer h3,{
 .main .bottom a:link,
 .main .bottom a:visited {
 	display: block;
-	color: $blue;
 	font-size: 1.5em;
 	padding: 40px;
 	text-align: right;
 	text-decoration: none;
+}
+
+.researchers .main .bottom a:link,
+.researchers .main .bottom a:visited {
+	color: $blue;
+}
+
+.consumers .main .bottom a:link,
+.consumers .main .bottom a:visited {
+	color: $green;
+}
+
+.blog .main .bottom a:link,
+.blog .main .bottom a:visited {
+	color: $orange;
 }
 
 .main .bottom {
