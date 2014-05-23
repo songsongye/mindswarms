@@ -421,8 +421,8 @@ header a:active {
 	margin-bottom: 60px;
 }
 
-.main .row:nth-child(1) {
-	margin-top: 50px;
+.main {
+	padding-top: 150px;
 }
 
 .main .video-container {
@@ -634,6 +634,11 @@ footer h3,{
 	color: $blue;
 }
 
+.sample footer h3,
+.sample .main h3 {
+	color: $blue;
+}
+
 .consumers footer h3,
 .consumers .main h3 {
 	color: $green;
@@ -704,6 +709,11 @@ footer a:visited {
 	color: $blue;
 }
 
+.sample footer a:hover,
+.sample footer a:active {
+	color: $blue;
+}
+
 .consumers footer a:hover,
 .consumers footer a:active {
 	color: $green;
@@ -757,6 +767,12 @@ footer a:visited {
 
 .researchers .social-icons li a:hover,
 .researchers .scoial-icons li a:active {
+	color: $white;
+	background: $blue;
+}
+
+.sample .social-icons li a:hover,
+.sample .scoial-icons li a:active {
 	color: $white;
 	background: $blue;
 }
@@ -839,7 +855,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	.sample .main .element-3,
 	.sample .main .element-4,
 	.sample .main .element-5,
-	.sample .main .element-6 {
+	.sample .main .element-6,
+	.sample .main .element-7 {
 	margin-bottom: 50px;
 }
 
@@ -867,6 +884,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 .sample .main img {
 	width: 100%;
+	cursor: pointer;
 }
 
 // ELEMENT 3 
@@ -918,11 +936,53 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 
 
+// ELEMENT 6
+
+table.table {
+	width: 100%;
+	border: 1px solid #333333;
+}
+
+table.table tr:first-child {
+	background: #333333;
+	color: #FFFFFF;
+}
+
+table.table td,
+table.table th {
+	height:90px;
+	padding: 10px;
+	font-size: 1.3em;
+	border: 1px solid #333333;
+	color: #FFFFFF;
+}
+
+table.table td:nth-child(2),
+table.table td:nth-child(3),
+table.table td:nth-child(4) {
+	text-align: center;
+}
+
+.icon-checkmark {
+	font-size: 3em;
+	color: $blue;
+}
 
 
+// ELEMENT 7
 
+.sample .main .element-7 h1 {
+	font-family: $ssproregular;
+	font-size: 2.5em;
+	text-align: center;
+	display: block;
+	line-height: 50px;
+}
 
-
+.sample .main .element-7 p {
+	font-size: 1.3em;
+	text-align: center;
+}
 
 
 
@@ -1051,8 +1111,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
 		margin-top: 25px;
 	}
 
-	.main .row:nth-child(1) {
-		margin-top: 100px;
+	.main {
+		padding-top: 150px;
 	}
 
 	.researchers .main .row:nth-child(2),
@@ -1125,7 +1185,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	.sample .main .element-2,
 	.sample .main .element-3,
 	.sample .main .element-5,
-	.sample .main .element-6 {
+	.sample .main .element-6,
+	.sample .main .element-7 {
 		margin-bottom: 100px;
 	}
 
@@ -1139,6 +1200,12 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 	.sample .main .element-2 h1 {
 		margin-top: 100px;
+	}
+
+	// ELEMENT 7
+
+	.sample .main .element-7 h1 {
+		font-size: 3em;
 	}
 
 
@@ -1235,8 +1302,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
 		font-size: 1.2em;
 	}
 
-	.main .row:nth-child(1) {
-		margin-top: 125px;
+	.main {
+		padding-top: 150px;
 	}
 
 	.researchers .main .row:nth-child(2),
@@ -1303,7 +1370,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	.sample .main .element-2,
 	.sample .main .element-3,
 	.sample .main .element-5,
-	.sample .main .element-6 {
+	.sample .main .element-6,
+	.sample .main .element-7 {
 		margin-bottom: 130px;
 	}
 
@@ -1324,6 +1392,13 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	.sample .main .element-2 h1 {
 		margin-top: 150px;
 	}
+
+	// ELEMENT 7
+
+	.sample .main .element-7 h1 {
+		font-size: 3.5em;
+	}
+
 
 }
 
@@ -1398,8 +1473,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
 		font-size: 1.3em;
 	}
 
-	.main .row:nth-child(1) {
-		margin-top: 150px;
+	.main {
+		padding-top: 150px;
 	}
 
 	.researchers .main .row:nth-child(2),
@@ -1469,7 +1544,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	.sample .main .element-2,
 	.sample .main .element-3,
 	.sample .main .element-5,
-	.sample .main .element-6 {
+	.sample .main .element-6,
+	.sample .main .element-7 {
 		margin-bottom: 150px;
 	}
 
@@ -1491,7 +1567,11 @@ div.main-buttons section.col-sm-6:last-child a:active {
 		margin-top: 200px;
 	}
 
-	// ELEMENT 4
+	// ELEMENT 7
+
+	.sample .main .element-7 h1 {
+		font-size: 4em;
+	}
 
 }
 
@@ -1521,11 +1601,11 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 @font-face {
 	font-family: 'mindswarms';
-	src:url('../fonts/mindswarms.eot?ejbpfy');
-	src:url('../fonts/mindswarms.eot?#iefixejbpfy') format('embedded-opentype'),
-		url('../fonts/mindswarms.woff?ejbpfy') format('woff'),
-		url('../fonts/mindswarms.ttf?ejbpfy') format('truetype'),
-		url('../fonts/mindswarms.svg?ejbpfy#mindswarms') format('svg');
+	src:url('../fonts/mindswarms.eot?-iuxb0p');
+	src:url('../fonts/mindswarms.eot?#iefix-iuxb0p') format('embedded-opentype'),
+		url('../fonts/mindswarms.woff?-iuxb0p') format('woff'),
+		url('../fonts/mindswarms.ttf?-iuxb0p') format('truetype'),
+		url('../fonts/mindswarms.svg?-iuxb0p#mindswarms') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -1544,6 +1624,9 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-checkmark:before {
+	content: "\e605";
+}
 .icon-rss:before {
 	content: "\e600";
 }

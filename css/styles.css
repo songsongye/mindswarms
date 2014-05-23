@@ -302,8 +302,8 @@ header a:active {
 .blog .main .row:nth-child(8) {
   margin-bottom: 60px; }
 
-.main .row:nth-child(1) {
-  margin-top: 50px; }
+.main {
+  padding-top: 150px; }
 
 .main .video-container {
   position: relative; }
@@ -485,6 +485,10 @@ footer h3 {
 .researchers .main h3 {
   color: #4bc8cd; }
 
+.sample footer h3,
+.sample .main h3 {
+  color: #4bc8cd; }
+
 .consumers footer h3,
 .consumers .main h3 {
   color: #afd741; }
@@ -541,6 +545,10 @@ footer a:visited {
 .researchers footer a:active {
   color: #4bc8cd; }
 
+.sample footer a:hover,
+.sample footer a:active {
+  color: #4bc8cd; }
+
 .consumers footer a:hover,
 .consumers footer a:active {
   color: #afd741; }
@@ -586,6 +594,11 @@ footer a:visited {
 
 .researchers .social-icons li a:hover,
 .researchers .scoial-icons li a:active {
+  color: white;
+  background: #4bc8cd; }
+
+.sample .social-icons li a:hover,
+.sample .scoial-icons li a:active {
   color: white;
   background: #4bc8cd; }
 
@@ -645,7 +658,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
 .sample .main .element-3,
 .sample .main .element-4,
 .sample .main .element-5,
-.sample .main .element-6 {
+.sample .main .element-6,
+.sample .main .element-7 {
   margin-bottom: 50px; }
 
 .sample .main h1 {
@@ -666,7 +680,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
   padding: 0; }
 
 .sample .main img {
-  width: 100%; }
+  width: 100%;
+  cursor: pointer; }
 
 .sample .main .element-3 .graybox {
   padding: 80px; }
@@ -699,6 +714,42 @@ div.main-buttons section.col-sm-6:last-child a:active {
 .sample .main .element-5 .graybox p {
   color: white;
   font-size: 1.2em; }
+
+table.table {
+  width: 100%;
+  border: 1px solid #333333; }
+
+table.table tr:first-child {
+  background: #333333;
+  color: #FFFFFF; }
+
+table.table td,
+table.table th {
+  height: 90px;
+  padding: 10px;
+  font-size: 1.3em;
+  border: 1px solid #333333;
+  color: #FFFFFF; }
+
+table.table td:nth-child(2),
+table.table td:nth-child(3),
+table.table td:nth-child(4) {
+  text-align: center; }
+
+.icon-checkmark {
+  font-size: 3em;
+  color: #4bc8cd; }
+
+.sample .main .element-7 h1 {
+  font-family: "SourceSansPro-Regular", sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  display: block;
+  line-height: 50px; }
+
+.sample .main .element-7 p {
+  font-size: 1.3em;
+  text-align: center; }
 
 @media (min-width: 768px) {
   .display-mobile {
@@ -782,8 +833,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
   .main .container .row:nth-child(2) section:last-child .button:first-child {
     margin-top: 25px; }
 
-  .main .row:nth-child(1) {
-    margin-top: 100px; }
+  .main {
+    padding-top: 150px; }
 
   .researchers .main .row:nth-child(2),
   .researchers .main .row:nth-child(5),
@@ -837,7 +888,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
   .sample .main .element-2,
   .sample .main .element-3,
   .sample .main .element-5,
-  .sample .main .element-6 {
+  .sample .main .element-6,
+  .sample .main .element-7 {
     margin-bottom: 100px; }
 
   .sample .main h1 {
@@ -846,7 +898,10 @@ div.main-buttons section.col-sm-6:last-child a:active {
     margin-top: 50px; }
 
   .sample .main .element-2 h1 {
-    margin-top: 100px; } }
+    margin-top: 100px; }
+
+  .sample .main .element-7 h1 {
+    font-size: 3em; } }
 @media (min-width: 992px) {
   .main-buttons a:link,
   .main-buttons a:visited {
@@ -911,8 +966,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
   .hor_nav ul li a:visited {
     font-size: 1.2em; }
 
-  .main .row:nth-child(1) {
-    margin-top: 125px; }
+  .main {
+    padding-top: 150px; }
 
   .researchers .main .row:nth-child(2),
   .researchers .main .row:nth-child(5),
@@ -963,7 +1018,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
   .sample .main .element-2,
   .sample .main .element-3,
   .sample .main .element-5,
-  .sample .main .element-6 {
+  .sample .main .element-6,
+  .sample .main .element-7 {
     margin-bottom: 130px; }
 
   .sample .main h1 {
@@ -977,7 +1033,10 @@ div.main-buttons section.col-sm-6:last-child a:active {
     line-height: 20px; }
 
   .sample .main .element-2 h1 {
-    margin-top: 150px; } }
+    margin-top: 150px; }
+
+  .sample .main .element-7 h1 {
+    font-size: 3.5em; } }
 @media (min-width: 1200px) {
   .large {
     min-height: 400px; }
@@ -1024,8 +1083,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
   .hor_nav ul li a:visited {
     font-size: 1.3em; }
 
-  .main .row:nth-child(1) {
-    margin-top: 150px; }
+  .main {
+    padding-top: 150px; }
 
   .researchers .main .row:nth-child(2),
   .researchers .main .row:nth-child(5),
@@ -1076,7 +1135,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
   .sample .main .element-2,
   .sample .main .element-3,
   .sample .main .element-5,
-  .sample .main .element-6 {
+  .sample .main .element-6,
+  .sample .main .element-7 {
     margin-bottom: 150px; }
 
   .sample .main h1 {
@@ -1090,7 +1150,10 @@ div.main-buttons section.col-sm-6:last-child a:active {
     line-height: 20px; }
 
   .sample .main .element-2 h1 {
-    margin-top: 200px; } }
+    margin-top: 200px; }
+
+  .sample .main .element-7 h1 {
+    font-size: 4em; } }
 @font-face {
   font-family: 'SourceSansPro-Italic';
   src: url("../fonts/SourceSansPro/SourceSansPro-Italic.ttf") format("truetype"); }
@@ -1105,8 +1168,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 @font-face {
   font-family: 'mindswarms';
-  src: url("../fonts/mindswarms.eot?ejbpfy");
-  src: url("../fonts/mindswarms.eot?#iefixejbpfy") format("embedded-opentype"), url("../fonts/mindswarms.woff?ejbpfy") format("woff"), url("../fonts/mindswarms.ttf?ejbpfy") format("truetype"), url("../fonts/mindswarms.svg?ejbpfy#mindswarms") format("svg");
+  src: url("../fonts/mindswarms.eot?-iuxb0p");
+  src: url("../fonts/mindswarms.eot?#iefix-iuxb0p") format("embedded-opentype"), url("../fonts/mindswarms.woff?-iuxb0p") format("woff"), url("../fonts/mindswarms.ttf?-iuxb0p") format("truetype"), url("../fonts/mindswarms.svg?-iuxb0p#mindswarms") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -1121,6 +1184,9 @@ div.main-buttons section.col-sm-6:last-child a:active {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.icon-checkmark:before {
+  content: "\e605"; }
 
 .icon-rss:before {
   content: "\e600"; }
