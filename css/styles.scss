@@ -28,6 +28,22 @@ $copyrightgray: #4d4d4d;
 	transition: opacity $sec linear;
 }
 
+@mixin appearance($none) {
+	-webkit-appearance: $none;
+	-moz-appearance: $none;
+	-ms-appearance: $none;
+	-o-appearance: $none;
+	appearance: $none;
+}
+
+@mixin border-radius($px) {
+	-webkit-border-radius: $px;
+	-moz-border-radius: $px;
+	-ms-border-radius: $px;
+	-o-border-radius: $px;
+	border-radius: $px;
+}
+
 $ssproregular: 'SourceSansPro-Regular', sans-serif;
 $ssprobold: 'SourceSansPro-Bold', sans-serif;
 $ssproitalic: 'SourceSansPro-Italic', sans-serif;
@@ -118,7 +134,9 @@ body {
 	background: -o-linear-gradient(top, #e58925, #9a4e00);
 }
 
-.sample .main {
+.sample .main,
+.casestudies .main,
+.examples .main {
 	background-color: #8ca1ad;
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4a5f6c), to(#8ca1ad));
 	background: -webkit-linear-gradient(top, #8ca1ad, #4a5f6c);
@@ -635,7 +653,11 @@ footer h3,{
 }
 
 .sample footer h3,
-.sample .main h3 {
+.sample .main h3,
+.casestudies footer h3,
+.casestudies .main h3,
+.examples footer h3,
+.examples .main h3 {
 	color: $blue;
 }
 
@@ -710,7 +732,11 @@ footer a:visited {
 }
 
 .sample footer a:hover,
-.sample footer a:active {
+.sample footer a:active,
+.casestudies footer a:hover,
+.casestudies footer a:active,
+.examples footer a:hover,
+.examples footer a:active {
 	color: $blue;
 }
 
@@ -772,7 +798,11 @@ footer a:visited {
 }
 
 .sample .social-icons li a:hover,
-.sample .scoial-icons li a:active {
+.sample .scoial-icons li a:active,
+.casestudies .social-icons li a:hover,
+.casestudies .scoial-icons li a:active,
+.exampels .social-icons li a:hover,
+.examples .scoial-icons li a:active {
 	color: $white;
 	background: $blue;
 }
@@ -991,7 +1021,113 @@ table.table td:nth-child(4) {
 
 
 
+//
+//
+//
+// CASE STUDIES PAGE
+//
+//
+//
 
+
+.casestudies .smalltext,
+.examples .smalltext {
+	display: block;
+	font-size: 1.2em;
+	color: #e1e1e1;
+	text-align: center;
+	margin: 10px 0 0 0;
+	line-height: 35px;
+}
+
+.casestudies select.searchcritique,
+.examples select.searchcritique {
+	color: #e1e1e1;
+	font-size: 1.2em;
+	width: 100%;
+	background: url(../img/arrow-blue.png) no-repeat right 10px center;
+	background-size: 7%;
+	height: 35px;
+	padding: 0 20px;
+	@include appearance(none);
+	@include border-radius(10px);
+	border-color: $white;
+	margin: 10px 0 10px 0;
+}
+
+.casestudies .main h1,
+.examples .main h1 {
+	font-size: 1.5em;
+	text-align: center;
+	margin: 0;
+}
+
+.casestudies .main h3,
+.examples .main h3 {
+	font-size: 1.2em;
+	text-align: center;
+	margin: 0;
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+.casestudies .main .videodescription,
+.examples .main .videodescription {
+	display: block;
+	font-size: 1.1em;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.casestudies .main img,
+.examples .main img {
+	width: 100%;
+}
+
+.main .row:nth-child(2) .col-sm-3:last-child .searchcritique {
+	margin-bottom: 50px;
+}
+
+.examplesnav {
+	margin: 0;
+	padding: 0;
+	margin: 20px 0 50px 0;
+}
+
+.examplesnav li {
+	font-size: 1.1em;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.examplesnav li a:link,
+.examplesnav li a:visited {
+	color: #e1e1e1;
+	padding: 5px 10px;
+	margin: 0px 1px;
+	@include border-radius(10px);
+	text-decoration: none;
+}
+
+.examplesnav li.current a:link,
+.examplesnav li.current a:visited {
+	background: $blue;
+	color: #333333;
+}
+
+.examplesnav li a:hover,
+.examplesnav li a:active {
+	background: $blue;
+	color: #333333;
+}
+
+.examplevids img {
+	margin-bottom: 60px;
+}
 
 
 
@@ -1209,6 +1345,61 @@ table.table td:nth-child(4) {
 	}
 
 
+
+
+
+	//
+	//
+	// 
+	//
+	//
+
+	.casestudies .smalltext,
+	.examples .smalltext {
+		font-size: 1.2em;
+		margin: 20px 0 50px 0;
+		line-height: 35px;
+	}
+
+	.casestudies select.searchcritique,
+	.examples select.searchcritique {
+		font-size: 1.2em;
+		background-size: 10%;
+		height: 35px;
+		padding: 0 20px;
+		margin: 20px 0 50px 0;
+	}
+
+	.casestudies .main h1,
+	.examples .main h1 {
+		font-size: 1.5em;
+	}
+
+	.casestudies .main h3,
+	.examples .main h3 {
+		font-size: 1.2em;
+		line-height: 20px;
+		margin-top: 20px;
+	}
+
+	.casestudies .main .videodescription,
+	.examples .main .videodescription {
+		font-size: 1.1em;
+		margin: 0;
+		margin-bottom: 40px;
+	}
+
+	.examplesnav li {
+		margin-bottom: 10px;
+		font-size: 1.2em;
+	}
+
+	.examplesnav li a:link,
+	.examplesnav li a:visited {
+		padding: 5px 10px;
+		margin: 0px 1px;
+	}
+
 }
 
 
@@ -1399,6 +1590,12 @@ table.table td:nth-child(4) {
 		font-size: 3.5em;
 	}
 
+	.examplesnav li a:link,
+	.examplesnav li a:visited {
+		padding: 5px 10px;
+		margin: 0px 3px;
+	}
+
 
 }
 
@@ -1571,6 +1768,18 @@ table.table td:nth-child(4) {
 
 	.sample .main .element-7 h1 {
 		font-size: 4em;
+	}
+
+	//
+	//
+	//
+	//
+	//
+
+	.examplesnav li a:link,
+	.examplesnav li a:visited {
+		padding: 5px 10px;
+		margin: 0px 15px;
 	}
 
 }

@@ -64,7 +64,9 @@ body {
   background: -ms-linear-gradient(top, #e58925, #9a4e00);
   background: -o-linear-gradient(top, #e58925, #9a4e00); }
 
-.sample .main {
+.sample .main,
+.casestudies .main,
+.examples .main {
   background-color: #8ca1ad;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4a5f6c), to(#8ca1ad));
   background: -webkit-linear-gradient(top, #8ca1ad, #4a5f6c);
@@ -486,7 +488,11 @@ footer h3 {
   color: #4bc8cd; }
 
 .sample footer h3,
-.sample .main h3 {
+.sample .main h3,
+.casestudies footer h3,
+.casestudies .main h3,
+.examples footer h3,
+.examples .main h3 {
   color: #4bc8cd; }
 
 .consumers footer h3,
@@ -546,7 +552,11 @@ footer a:visited {
   color: #4bc8cd; }
 
 .sample footer a:hover,
-.sample footer a:active {
+.sample footer a:active,
+.casestudies footer a:hover,
+.casestudies footer a:active,
+.examples footer a:hover,
+.examples footer a:active {
   color: #4bc8cd; }
 
 .consumers footer a:hover,
@@ -598,7 +608,11 @@ footer a:visited {
   background: #4bc8cd; }
 
 .sample .social-icons li a:hover,
-.sample .scoial-icons li a:active {
+.sample .scoial-icons li a:active,
+.casestudies .social-icons li a:hover,
+.casestudies .scoial-icons li a:active,
+.exampels .social-icons li a:hover,
+.examples .scoial-icons li a:active {
   color: white;
   background: #4bc8cd; }
 
@@ -751,6 +765,104 @@ table.table td:nth-child(4) {
   font-size: 1.3em;
   text-align: center; }
 
+.casestudies .smalltext,
+.examples .smalltext {
+  display: block;
+  font-size: 1.2em;
+  color: #e1e1e1;
+  text-align: center;
+  margin: 10px 0 0 0;
+  line-height: 35px; }
+
+.casestudies select.searchcritique,
+.examples select.searchcritique {
+  color: #e1e1e1;
+  font-size: 1.2em;
+  width: 100%;
+  background: url(../img/arrow-blue.png) no-repeat right 10px center;
+  background-size: 7%;
+  height: 35px;
+  padding: 0 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border-color: white;
+  margin: 10px 0 10px 0; }
+
+.casestudies .main h1,
+.examples .main h1 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0; }
+
+.casestudies .main h3,
+.examples .main h3 {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0;
+  line-height: 20px;
+  margin-top: 20px; }
+
+.casestudies .main .videodescription,
+.examples .main .videodescription {
+  display: block;
+  font-size: 1.1em;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px; }
+
+.casestudies .main img,
+.examples .main img {
+  width: 100%; }
+
+.main .row:nth-child(2) .col-sm-3:last-child .searchcritique {
+  margin-bottom: 50px; }
+
+.examplesnav {
+  margin: 0;
+  padding: 0;
+  margin: 20px 0 50px 0; }
+
+.examplesnav li {
+  font-size: 1.1em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-bottom: 10px; }
+
+.examplesnav li a:link,
+.examplesnav li a:visited {
+  color: #e1e1e1;
+  padding: 5px 10px;
+  margin: 0px 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none; }
+
+.examplesnav li.current a:link,
+.examplesnav li.current a:visited {
+  background: #4bc8cd;
+  color: #333333; }
+
+.examplesnav li a:hover,
+.examplesnav li a:active {
+  background: #4bc8cd;
+  color: #333333; }
+
+.examplevids img {
+  margin-bottom: 60px; }
+
 @media (min-width: 768px) {
   .display-mobile {
     display: none; }
@@ -901,7 +1013,46 @@ table.table td:nth-child(4) {
     margin-top: 100px; }
 
   .sample .main .element-7 h1 {
-    font-size: 3em; } }
+    font-size: 3em; }
+
+  .casestudies .smalltext,
+  .examples .smalltext {
+    font-size: 1.2em;
+    margin: 20px 0 50px 0;
+    line-height: 35px; }
+
+  .casestudies select.searchcritique,
+  .examples select.searchcritique {
+    font-size: 1.2em;
+    background-size: 10%;
+    height: 35px;
+    padding: 0 20px;
+    margin: 20px 0 50px 0; }
+
+  .casestudies .main h1,
+  .examples .main h1 {
+    font-size: 1.5em; }
+
+  .casestudies .main h3,
+  .examples .main h3 {
+    font-size: 1.2em;
+    line-height: 20px;
+    margin-top: 20px; }
+
+  .casestudies .main .videodescription,
+  .examples .main .videodescription {
+    font-size: 1.1em;
+    margin: 0;
+    margin-bottom: 40px; }
+
+  .examplesnav li {
+    margin-bottom: 10px;
+    font-size: 1.2em; }
+
+  .examplesnav li a:link,
+  .examplesnav li a:visited {
+    padding: 5px 10px;
+    margin: 0px 1px; } }
 @media (min-width: 992px) {
   .main-buttons a:link,
   .main-buttons a:visited {
@@ -1036,7 +1187,12 @@ table.table td:nth-child(4) {
     margin-top: 150px; }
 
   .sample .main .element-7 h1 {
-    font-size: 3.5em; } }
+    font-size: 3.5em; }
+
+  .examplesnav li a:link,
+  .examplesnav li a:visited {
+    padding: 5px 10px;
+    margin: 0px 3px; } }
 @media (min-width: 1200px) {
   .large {
     min-height: 400px; }
@@ -1153,26 +1309,27 @@ table.table td:nth-child(4) {
     margin-top: 200px; }
 
   .sample .main .element-7 h1 {
-    font-size: 4em; } }
+    font-size: 4em; }
+
+  .examplesnav li a:link,
+  .examplesnav li a:visited {
+    padding: 5px 10px;
+    margin: 0px 15px; } }
 @font-face {
   font-family: 'SourceSansPro-Italic';
   src: url("../fonts/SourceSansPro/SourceSansPro-Italic.ttf") format("truetype"); }
-
 @font-face {
   font-family: 'SourceSansPro-Regular';
   src: url("../fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype"); }
-
 @font-face {
   font-family: 'SourceSansPro-Bold';
   src: url("../fonts/SourceSansPro/SourceSansPro-Semibold.ttf") format("truetype"); }
-
 @font-face {
   font-family: 'mindswarms';
   src: url("../fonts/mindswarms.eot?-iuxb0p");
   src: url("../fonts/mindswarms.eot?#iefix-iuxb0p") format("embedded-opentype"), url("../fonts/mindswarms.woff?-iuxb0p") format("woff"), url("../fonts/mindswarms.ttf?-iuxb0p") format("truetype"), url("../fonts/mindswarms.svg?-iuxb0p#mindswarms") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'mindswarms';
   speak: none;
