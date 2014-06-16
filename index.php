@@ -6,7 +6,7 @@
 	    <div class="va-wrap">
 	      <div class="va va-m">
 	        <h1>mindswarms</h1>
-	        <h2>Fast video-based consumer feedback.</h2>
+	        <h2>Authentic video-based insights from exceptional consumers.</h2>
 	      </div>
 	    </div>
 	  </div>
@@ -17,10 +17,10 @@
 		<div class="container-fluid">
 			<div class="row">
 				<section class="col-sm-6">
-					<a href="researchers.php" alt="" />Want consumer feedback quickly?</a>
+					<a href="researchers.php">Companies enter here.</a>
 				</section>
 				<section class="col-sm-6">
-					<a href="consumers.php" alt="" />Want to get paid for your opinions?</a>
+					<a href="consumers.php">Individuals enter here.</a>
 				</section>
 			</div>
 		</div>

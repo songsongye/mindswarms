@@ -7,8 +7,8 @@
 				<h3>MindSwarms</h3>
 				<ul>
 					<li><a href="http://blog.mindswarms.com/">Blog</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">Press</a></li>
+					<li><a href="contact.php">Contact</a></li>
+					<li><a href="press.php">Press</a></li>
 					<li><a href="#">Privacy Policy</a></li>
 					<li><a href="#">Terms of Use</a></li>
 				</ul>
@@ -16,25 +16,25 @@
 			<section class="col-sm-3">
 				<h3>Researchers</h3>
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">How it Works</a></li>
+					<li><a href="researchers.php">Home</a></li>
+					<li><a href="researchers-howitworks.php">How it Works</a></li>
 					<li><a href="#">Services</a></li>
 					<li><a href="#">Our Database</a></li>
 					<li><a href="#">Occasions</a></li>
-					<li><a href="#">Case Studies &amp; Reports</a></li>
+					<li><a href="researchers-casestudies.php">Case Studies &amp; Reports</a></li>
 					<li><a href="#">About</a></li>
-					<li><a href="#">Academy</a></li>
+					<li><a href="researchers-academy.php">Academy</a></li>
 					<li><a href="#">Start Your Research</a></li>
 				</ul>
 			</section>
 			<section class="col-sm-3">
 				<h3>Participants</h3>
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Why Sign Up?</a></li>
-					<li><a href="#">How it Works</a></li>
-					<li><a href="#">Tips</a></li>
-					<li><a href="#">FAQ</a></li>
+					<li><a href="consumers.php">Home</a></li>
+					<li><a href="consumers-whysignup.php">Why Sign Up?</a></li>
+					<li><a href="consumers-howitworks.php">How it Works</a></li>
+					<li><a href="consumers-tips.php">Tips</a></li>
+					<li><a href="consumers-faq.php">FAQ</a></li>
 				</ul>
 			</section>
 			<section class="col-sm-3">

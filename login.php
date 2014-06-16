@@ -45,7 +45,7 @@
 						<li>Screen Recruits</li>
 						<li>Watch Results</li>
 					</ul>
-					<a href="#" alt="" class="button">
+					<a href="https://www.mindswarms.com/interest?from=kindOfUser&text=Conduct+research&vs=Get+paid+for+answers" alt="" class="button">
 						Researcher Sign-Up
 					</a>
 				</article>
@@ -63,7 +63,7 @@
 						<li>Give Opinions</li>
 						<li>Earn $$$</li>
 					</ul>
-					<a href="#" alt="" class="button">
+					<a href="https://www.mindswarms.com/consumers/new?from=kindOfUser&text=Get+paid+for+answers&vs=Conduct+research" alt="" class="button">
 						User Sign-Up
 					</a>
 				</article>

@@ -6,22 +6,22 @@
 		<div class="row">
 			<section class="col-sm-12">
 				<article>
-					<h1>Answer questions via webcam.</h1>
+					<h1>Authentic video-based insights from exceptional consumers.</h1>
 				</article>
 			</section>
 		</div>
 		<div class="row">
 			<section class="col-sm-9">
 				<article>
-					<h1>Get paid for your opinions.</h1>
-					<p>Companies care about your opinion and want to hear from consumers. Mindswarms gives you a chance to influence future products, advertising, and business decisions.</p>
+					<!-- <h1>Get paid for your opinions.</h1> -->
+					<p>MindSwarms is a video-based digital market research service that helps you make your product or service more relevant by bringing authentic consumer voices and faces into your process via mobile video and/or webcam. Our biggest point of differentiation is quality of recruit. </p>
 				</article>
 			</section>
 			<section class="col-sm-3">
-				<a href="#" alt="" class="button">
+				<!-- <a href="#" alt="" class="button">
 					Learn More
-				</a>
-				<a href="#" alt="" class="button">
+				</a> -->
+				<a href="login.php" alt="" class="button">
 					Sign Up
 				</a>
 			</section>
@@ -29,7 +29,7 @@
 
 <!-- LARGE VIDEO, TOP OF PAGE -->
 
-		<div class="row">
+		<!-- <div class="row">
 			<section class="col-md-12">
 				<section class="video-container large-vid">
 					<video poster="" controls>
@@ -39,7 +39,7 @@
 					<div class="overlay blue-bg"></div>
 				</section>
 			</section>
-		</div>
+		</div> -->
 		<div class="row">
 			<section class="col-md-12">
 				<article class="large graybox">
@@ -59,18 +59,18 @@
 				</article>
 			</section>
 		</div>
-		<div class="row">
+		<!-- <div class="row">
 			<section class="col-md-12">
 				<a href="#" alt="#" class="button">
 					How it works
 				</a>
 			</section>
-		</div>
+		</div> -->
 
 
 <!-- 3 SMALLER VIDEOS, MIDDLE OF PAGE -->
 
-		<div class="row">
+		<!-- <div class="row">
 			<section class="col-md-12">
 				<section class="small-vid video-container">
 					<section class="relative">
@@ -119,11 +119,11 @@
 					Testimonials
 				</a>
 			</section>
-		</div>
+		</div> -->
 
 <!-- DESCRIPTIVE BOXES, BOTTOM OF PAGE -->
 
-		<div class="row">
+		<!-- <div class="row">
 			<section class="col-md-12">
 				<article class="large graybox bottom">
 					<h3>Benefits</h3>
@@ -141,7 +141,7 @@
 					<a href="#">Learn more</a>
 				</article>
 			</section>
-		</div>
+		</div> -->
 	</div>
 </div>
 

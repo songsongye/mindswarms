@@ -82,20 +82,22 @@ if(strtolower($bodyclass) == 'home') {
 					<ul>
 					    <li class="blue"><a href="researchers.php">Researchers</a>
 					    	<ul>
-					        	<li><a href="">Benefits</a></li>
-					        	<li><a href="">How it Works</a></li>
-					        	<li><a href="">Methodologies</a></li>
-					        	<li><a href="">Case Studies</a></li>
-					        	<li><a href="">Our Story</a></li>
+								<li><a href="researchers-howitworks.php">How it Works</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Our Database</a></li>
+								<li><a href="#">Occasions</a></li>
+								<li><a href="researchers-casestudies.php">Case Studies &amp; Reports</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="researchers-academy.php">Academy</a></li>
+								<li><a href="#">Start Your Research</a></li>
 					    	</ul>
 					    </li>
 					    <li class="green"><a href="consumers.php">Consumers</a>
 					    	<ul>
-					        	<li><a href="">Home</a></li>
-					        	<li><a href="">Why?</a></li>
-					        	<li><a href="">How it Works</a></li>
-					        	<li><a href="">Tips</a></li>
-					        	<li><a href="">FAQ</a></li>
+					        	<li><a href="consumers-whysignup.php">Why Sign Up?</a></li>
+								<li><a href="consumers-howitworks.php">How it Works</a></li>
+								<li><a href="consumers-tips.php">Tips</a></li>
+								<li><a href="consumers-faq.php">FAQ</a></li>
 					    	</ul>
 					    </li>
 					    <li class="orange"><a href="http://blog.mindswarms.com/">Blog</a></li>

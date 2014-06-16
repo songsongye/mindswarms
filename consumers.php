@@ -6,22 +6,22 @@
 		<div class="row">
 			<section class="col-sm-12">
 				<article>
-					<h1>Answer questions via webcam.</h1>
+					<h1>Everybody is an Expert at Something.</h1>
 				</article>
 			</section>
 		</div>
 		<div class="row">
 			<section class="col-sm-9">
 				<article>
-					<h1>Get paid for your opinions.</h1>
-					<p>Companies care about your opinion and want to hear from consumers. Mindswarms gives you a chance to influence future products, advertising, and business decisions.</p>
+					<h1>Why not get paid to share your insight?</h1>
+					<p>Companies will pay you to hear your insights recorded via video on your smartphone, tablet or webcam. Why? Your stories - with the inherent nuances that video brings - help them understand you better so they can shape products, advertising, design, naming and apps and all sorts of other things they are working on.</p>
 				</article>
 			</section>
 			<section class="col-sm-3">
-				<a href="#" alt="" class="button">
+				<a href="consumers-whysignup.php" alt="" class="button">
 					Learn More
 				</a>
-				<a href="#" alt="" class="button">
+				<a href="login.php" alt="" class="button">
 					Sign Up
 				</a>
 			</section>
@@ -29,7 +29,7 @@
 
 <!-- LARGE VIDEO, TOP OF PAGE -->
 
-		<div class="row">
+		<!-- <div class="row">
 			<section class="col-md-12">
 				<section class="video-container large-vid">
 					<video poster="" controls>
@@ -39,29 +39,29 @@
 					<div class="overlay blue-bg"></div>
 				</section>
 			</section>
-		</div>
+		</div> -->
 		<div class="row">
 			<section class="col-md-12">
 				<article class="large graybox">
 					<img src="img/element4.svg" alt="svg" />
-					<h3>Create a Study</h3>
-					<p>Choose your study size and demographic, then create up to seven questions for them to answer.</p>
+					<h3>APPLY for a study</h3>
+					<p>Available studies appear on your dashboard, waiting for you to apply.</p>
 				</article>
 				<article class="large graybox">
 					<img src="img/element5.svg" alt="svg" />
-					<h3>Screen Your Participants</h3>
-					<p>Pick the consumers you want to hear from after reviewing their responses to your custom screener questions.</p>
+					<h3>ANSWER Our Questions</h3>
+					<p>Respond to questions via video on your smartphone, tablet or webcam from anywhere.</p>
 				</article>
 				<article class="large graybox">
 					<img src="img/element6.svg" alt="svg" />
-					<h3>Watch Their Responses</h3>
-					<p>Consumer responses appear on your dashboard as they are submitted.</p>
+					<h3>GET PAID for your Opinions</h3>
+					<p>We pay you $50 via PayPal for every study that you complete.</p>
 				</article>
 			</section>
 		</div>
 		<div class="row">
 			<section class="col-md-12">
-				<a href="#" alt="#" class="button">
+				<a href="consumers-howitworks.php" alt="#" class="button">
 					How it works
 				</a>
 			</section>
@@ -70,7 +70,7 @@
 
 <!-- 3 SMALLER VIDEOS, MIDDLE OF PAGE -->
 
-		<div class="row">
+		<!-- <div class="row">
 			<section class="col-md-12">
 				<section class="small-vid video-container">
 					<section class="relative">
@@ -119,26 +119,26 @@
 					Testimonials
 				</a>
 			</section>
-		</div>
+		</div> -->
 
 <!-- DESCRIPTIVE BOXES, BOTTOM OF PAGE -->
 
 		<div class="row">
 			<section class="col-md-12">
 				<article class="large graybox bottom">
-					<h3>Benefits</h3>
-					<p>Watch unfiltered video feedback from consumers around the world without leaving your desk.</p>
-					<a href="#">Learn more</a>
+					<h3>Why</h3>
+					<p>Thousands of users have their own unique reasons for using MindSwarms. What's yours?</p>
+					<a href="consumers-why.php">Learn more</a>
 				</article>
 				<article class="large graybox bottom">
-					<h3>Benefits</h3>
-					<p>Watch unfiltered video feedback from consumers around the world without leaving your desk.</p>
-					<a href="#">Learn more</a>
+					<h3>Tips</h3>
+					<p>Getting up and running with MindSwarms is fast and easy. These tips will ensure that your videos are the best that they can be.</p>
+					<a href="consumers-tips.php">Learn more</a>
 				</article>
 				<article class="large graybox bottom">
-					<h3>Benefits</h3>
-					<p>Watch unfiltered video feedback from consumers around the world without leaving your desk.</p>
-					<a href="#">Learn more</a>
+					<h3>FAQ</h3>
+					<p>Got a question? You can probably find the answer you need right here.</p>
+					<a href="consumers-faq.php">Learn more</a>
 				</article>
 			</section>
 		</div>
