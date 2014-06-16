@@ -37,6 +37,24 @@
 
 <body class="<?= $bodyclass ?>">
 
+<?php
+// show video background on home page
+if(strtolower($bodyclass) == 'home') {
+?>
+
+<!-- VIDEO BACKGROUND -->
+	<div class="container-fluid">
+		<video autoplay loop poster="" id="video-background">
+			<!-- <source src="video/webm.webm" type="video/webm"> -->
+			<source src="video/mindswarms-consumer-mobile-video-surveys.mp4" type="video/mp4">
+		</video>
+		<section class="mobile-background">
+		</section>
+	</div>
+
+<?php } ?>
+
+
 <!-- TOP BAR HEADER NAVIGATION AND MOBILE DROPDOWN -->
 <header>
 	<div class="container" id="mobile-nav">
@@ -44,9 +62,9 @@
 			<section class="col-xs-12">
 				<nav class="mobile-nav">
 					<ul>
-						<li><a href="researchers.html">Researchers</a></li>
-						<li><a href="consumers.html">Consumers</a></li>
-						<li><a href="blog.html">Blog</a></li>
+						<li><a href="researchers.php">Researchers</a></li>
+						<li><a href="consumers.php">Consumers</a></li>
+						<li><a href="http://blog.mindswarms.com/">Blog</a></li>
 						<li><a href="#">Sign Up / Login</a></li>
 					</ul>
 				</nav>
@@ -62,7 +80,7 @@
 				<span class="trigger-nav"><span class="icon icon-list"></span></span>
 				<nav class="hor_nav">
 					<ul>
-					    <li class="blue"><a href="researchers.html">Researchers</a>
+					    <li class="blue"><a href="researchers.php">Researchers</a>
 					    	<ul>
 					        	<li><a href="">Benefits</a></li>
 					        	<li><a href="">How it Works</a></li>
@@ -71,7 +89,7 @@
 					        	<li><a href="">Our Story</a></li>
 					    	</ul>
 					    </li>
-					    <li class="green"><a href="consumers.html">Consumers</a>
+					    <li class="green"><a href="consumers.php">Consumers</a>
 					    	<ul>
 					        	<li><a href="">Home</a></li>
 					        	<li><a href="">Why?</a></li>
@@ -80,8 +98,8 @@
 					        	<li><a href="">FAQ</a></li>
 					    	</ul>
 					    </li>
-					    <li class="orange"><a href="blog.html">Blog</a></li>
-						<li class="signup"><a href="">Sign Up / Login</a></li>
+					    <li class="orange"><a href="http://blog.mindswarms.com/">Blog</a></li>
+						<li class="signup"><a href="#">Sign Up / Login</a></li>
 					</ul>
 				</nav>
 			</section>

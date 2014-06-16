@@ -1360,3 +1360,6 @@ table.table td:nth-child(4) {
 
 .icon-linkedin:before {
   content: "\e604"; }
+
+.home footer, .home .copyright {
+  display: none; }

@@ -6,10 +6,9 @@
 			<section class="col-sm-3">
 				<h3>MindSwarms</h3>
 				<ul>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Facebook</a></li>
-					<li><a href="#">Twitter</a></li>
+					<li><a href="http://blog.mindswarms.com/">Blog</a></li>
 					<li><a href="#">Contact</a></li>
+					<li><a href="#">Press</a></li>
 					<li><a href="#">Privacy Policy</a></li>
 					<li><a href="#">Terms of Use</a></li>
 				</ul>
@@ -18,18 +17,21 @@
 				<h3>Researchers</h3>
 				<ul>
 					<li><a href="#">Home</a></li>
-					<li><a href="#">Benefits</a></li>
 					<li><a href="#">How it Works</a></li>
-					<li><a href="#">Methodologies</a></li>
-					<li><a href="#">Case Studies</a></li>
-					<li><a href="#">Our Story</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Our Database</a></li>
+					<li><a href="#">Occasions</a></li>
+					<li><a href="#">Case Studies &amp; Reports</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Academy</a></li>
+					<li><a href="#">Start Your Research</a></li>
 				</ul>
 			</section>
 			<section class="col-sm-3">
 				<h3>Participants</h3>
 				<ul>
 					<li><a href="#">Home</a></li>
-					<li><a href="#">Why?</a></li>
+					<li><a href="#">Why Sign Up?</a></li>
 					<li><a href="#">How it Works</a></li>
 					<li><a href="#">Tips</a></li>
 					<li><a href="#">FAQ</a></li>

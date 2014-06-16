@@ -1854,3 +1854,9 @@ table.table td:nth-child(4) {
 }
 
 
+
+// HOME PAGE HAS AN ALTERNATE FOOTER
+.home footer, .home .copyright {
+	display: none;
+}
+
