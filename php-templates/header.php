@@ -65,7 +65,7 @@ if(strtolower($bodyclass) == 'home') {
 						<li><a href="researchers.php">Researchers</a></li>
 						<li><a href="consumers.php">Consumers</a></li>
 						<li><a href="http://blog.mindswarms.com/">Blog</a></li>
-						<li><a href="#">Sign Up / Login</a></li>
+						<li><a href="login.php">Sign Up / Login</a></li>
 					</ul>
 				</nav>
 			</section>
@@ -74,7 +74,7 @@ if(strtolower($bodyclass) == 'home') {
 	<div class="container">
 		<div class="row">
 			<section class="col-md-3 col-sm-3 col-xs-9">
-				<a href="index.html" alt="home"><h1 class="main-logo">mindswarms</h1></a>
+				<a href="index.php" alt="home"><h1 class="main-logo">mindswarms</h1></a>
 			</section>
 			<section class="col-md-9 col-sm-9 col-xs-3">
 				<span class="trigger-nav"><span class="icon icon-list"></span></span>
@@ -99,7 +99,7 @@ if(strtolower($bodyclass) == 'home') {
 					    	</ul>
 					    </li>
 					    <li class="orange"><a href="http://blog.mindswarms.com/">Blog</a></li>
-						<li class="signup"><a href="#">Sign Up / Login</a></li>
+						<li class="signup"><a href="login.php">Sign Up / Login</a></li>
 					</ul>
 				</nav>
 			</section>

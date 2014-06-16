@@ -40,8 +40,7 @@
 			<section class="col-sm-3">
 				<h3>Account</h3>
 				<ul>
-					<li><a href="#">Sign Up</a></li>
-					<li><a href="#">Login</a></li>
+					<li><a href="login.php">Sign Up / Login</a></li>
 					<li><a href="#">Support</a></li>
 				</ul>
 			</section>
