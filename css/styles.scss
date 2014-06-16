@@ -65,7 +65,7 @@ $ssproitalic: 'SourceSansPro-Italic', sans-serif;
 	height: auto; 
 	z-index: -100;
 	// background: $black;
-	background: url('../img/background-placeholder.jpg') no-repeat;
+	background: url('../img/fpo/videobackground.jpg') no-repeat;
 	background-size: cover;
 }
 
@@ -83,8 +83,9 @@ $ssproitalic: 'SourceSansPro-Italic', sans-serif;
 	height: auto; 
 	z-index: -100;
 	// background: $black;
-	background: url('../img/background-placeholder.jpg') no-repeat;
+	background: url('../img/fpo/videobackground-mobile.jpg') no-repeat;
 	background-size: cover;
+	background-position: center center;
 }
 
 .display-mobile {
