@@ -19,7 +19,7 @@
 	<!-- <link rel="apple-touch-icon" href="images/apple-touch-icon.png" /> -->
 
 <!-- STYLESHEETS -->
-	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/2014-bootstrap.css" />
 	<link rel="stylesheet" href="css/styles.css" />
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
