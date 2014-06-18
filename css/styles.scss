@@ -65,7 +65,7 @@ $ssproitalic: 'SourceSansPro-Italic', sans-serif;
 	height: auto; 
 	z-index: -100;
 	// background: $black;
-	background: url('../img/fpo/videobackground.jpg') no-repeat;
+	background: url('../2014/img/fpo/videobackground.jpg') no-repeat;
 	background-size: cover;
 }
 
@@ -83,7 +83,7 @@ $ssproitalic: 'SourceSansPro-Italic', sans-serif;
 	height: auto; 
 	z-index: -100;
 	// background: $black;
-	background: url('../img/fpo/videobackground-mobile.jpg') no-repeat;
+	background: url('../2014/img/fpo/videobackground-mobile.jpg') no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
@@ -1046,7 +1046,7 @@ table.table td:nth-child(4) {
 	color: #e1e1e1;
 	font-size: 1.2em;
 	width: 100%;
-	background: url(../img/arrow-blue.png) no-repeat right 10px center;
+	background: url(../2014/img/arrow-blue.png) no-repeat right 10px center;
 	background-size: 7%;
 	height: 35px;
 	padding: 0 20px;
@@ -1792,17 +1792,17 @@ table.table td:nth-child(4) {
 
 @font-face {
   font-family: 'SourceSansPro-Italic';
-  src: url('../fonts/SourceSansPro/SourceSansPro-Italic.ttf') format('truetype');
+  src: url('../2014/fonts/SourceSansPro/SourceSansPro-Italic.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'SourceSansPro-Regular';
-  src: url('../fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
+  src: url('../2014/fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'SourceSansPro-Bold';
-  src: url('../fonts/SourceSansPro/SourceSansPro-Semibold.ttf') format('truetype');
+  src: url('../2014/fonts/SourceSansPro/SourceSansPro-Semibold.ttf') format('truetype');
 }
 
 
@@ -1811,11 +1811,11 @@ table.table td:nth-child(4) {
 
 @font-face {
 	font-family: 'mindswarms';
-	src:url('../fonts/mindswarms.eot?-iuxb0p');
-	src:url('../fonts/mindswarms.eot?#iefix-iuxb0p') format('embedded-opentype'),
-		url('../fonts/mindswarms.woff?-iuxb0p') format('woff'),
-		url('../fonts/mindswarms.ttf?-iuxb0p') format('truetype'),
-		url('../fonts/mindswarms.svg?-iuxb0p#mindswarms') format('svg');
+	src:url('../2014/fonts/mindswarms.eot?-iuxb0p');
+	src:url('../2014/fonts/mindswarms.eot?#iefix-iuxb0p') format('embedded-opentype'),
+		url('../2014/fonts/mindswarms.woff?-iuxb0p') format('woff'),
+		url('../2014/fonts/mindswarms.ttf?-iuxb0p') format('truetype'),
+		url('../2014/fonts/mindswarms.svg?-iuxb0p#mindswarms') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

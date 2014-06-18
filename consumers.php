@@ -43,17 +43,17 @@
 		<div class="row">
 			<section class="col-md-12">
 				<article class="large graybox">
-					<img src="img/element4.svg" alt="svg" />
+					<img src="2014/img/element4.svg" alt="svg" />
 					<h3>APPLY for a study</h3>
 					<p>Available studies appear on your dashboard, waiting for you to apply.</p>
 				</article>
 				<article class="large graybox">
-					<img src="img/element5.svg" alt="svg" />
+					<img src="2014/img/element5.svg" alt="svg" />
 					<h3>ANSWER Our Questions</h3>
 					<p>Respond to questions via video on your smartphone, tablet or webcam from anywhere.</p>
 				</article>
 				<article class="large graybox">
-					<img src="img/element6.svg" alt="svg" />
+					<img src="2014/img/element6.svg" alt="svg" />
 					<h3>GET PAID for your Opinions</h3>
 					<p>We pay you $50 via PayPal for every study that you complete.</p>
 				</article>
