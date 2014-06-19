@@ -535,9 +535,26 @@ div.main-buttons section.col-sm-6:last-child a:active {
 .image-grid img {
   width: 120px; }
 
-.searchcritique {
+select.searchcritique {
+  color: #e1e1e1;
+  font-size: 1.2em;
   width: 100%;
-  margin: 20px 0; }
+  background: url(../2014/img/arrow-blue.png) no-repeat right 10px center;
+  background-size: 7%;
+  height: 35px;
+  padding: 0 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border-color: white;
+  margin: 10px 0 10px 0; }
 
 .smalltext {
   display: block;
