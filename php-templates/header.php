@@ -83,13 +83,13 @@ if(strtolower($bodyclass) == 'home') {
 					    <li class="blue"><a href="researchers.php">Researchers</a>
 					    	<ul>
 								<li><a href="researchers-howitworks.php">How it Works</a></li>
-								<li><a href="#">Services</a></li>
-								<li><a href="#">Our Database</a></li>
-								<li><a href="#">Occasions</a></li>
+								<li><a href="researchers-services.php">Services</a></li>
+								<li><a href="researchers-database.php">Our Database</a></li>
+								<li><a href="researchers-occasions.php">Occasions</a></li>
 								<li><a href="researchers-casestudies.php">Case Studies &amp; Reports</a></li>
-								<li><a href="#">About</a></li>
+								<li><a href="researchers-about.php">About</a></li>
 								<li><a href="researchers-academy.php">Academy</a></li>
-								<li><a href="#">Start Your Research</a></li>
+								<li><a href="researchers-research.php">Start Your Research</a></li>
 					    	</ul>
 					    </li>
 					    <li class="green"><a href="consumers.php">Consumers</a>
