@@ -1,4 +1,4 @@
-<?php $bodyclass = 'researchers'; include 'php-templates/header.php'; ?>
+<?php $bodyclass = 'orange'; include 'php-templates/header.php'; ?>
 
 <!-- MAIN PAGE BODY, CONTENT -->
 <div class="main">
