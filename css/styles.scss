@@ -761,7 +761,75 @@ select.searchcritique {
 	margin: 20px 0;
 }
 
+.userform fieldset {
+	border: none;
+}
 
+.userform ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 50px;
+}
+
+.userform ul li {
+	list-style: none;
+	padding: 5px 0;
+	clear: both;
+}
+
+.userform label {
+	float: left;
+	line-height: 30px;
+	font-size: 1.2em;
+}
+
+.userform span.inputwrapper {
+	display: block;
+	overflow: hidden;
+    padding-left: 20px;
+}
+
+.userform span.inputwrapper input[type="text"],
+.userform span.inputwrapper input[type="email"],
+.userform span.inputwrapper input[type="number"] {
+	width: 100%;
+	height: 30px;
+}
+
+.userform input[type="date"] {
+	height: 30px;
+	margin-left: 20px;
+}
+
+.userform select {
+	@include appearance(none);
+	height: 30px;
+	margin-left: 20px;
+	@include border-radius(0px);
+	width: 200px;
+	padding-left: 10px;
+}
+
+.userform textarea {
+	width: 100%;
+	height: 100px;
+}
+
+.userform span.considermore {
+	font-size: 1em;
+	line-height: 40px;
+}
+
+.userform input[type="submit"] {
+	float: right;
+	height: 40px;
+	background: $blue;
+	@include appearance(none);
+	border: none;
+	color: $white;
+	padding: 0 40px;
+}
 
 
 
@@ -1127,10 +1195,19 @@ footer a:visited {
 	    min-height: 250px;
 	}
 
+	.main .button:link, 
+	.main .button:visited {
+		font-size: 1.25em;
+	}
+
 	.videofilternav li {
 		display: inline-block;
 		padding: 5px 20.5px;
 		list-style: none;
+	}
+
+	.userform input[type="submit"] {
+		font-size: 1.25em;
 	}
 
 
@@ -1169,6 +1246,11 @@ footer a:visited {
 		font-size: 1.3em;
 	}
 
+	.main .button:link, 
+	.main .button:visited {
+		font-size: 1.5em;
+	}
+
 	.main .bottom h3 {
 		font-size: 1.9em;
 	}
@@ -1181,6 +1263,10 @@ footer a:visited {
 
 	.videofilternav li {
 		padding: 10px 33.3px;
+	}
+
+	.userform input[type="submit"] {
+		font-size: 1.5em;
 	}
 
 
