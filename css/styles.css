@@ -387,7 +387,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
 .main .graybox {
   position: relative;
   background-color: #444444;
-  background-image: linear-gradient(to right, #444444, #111111);
+  background-image: linear-gradient(135deg, #444444, #111111);
   padding: 40px;
   margin-bottom: 10px; }
 
@@ -395,6 +395,10 @@ div.main-buttons section.col-sm-6:last-child a:active {
   display: block;
   height: 70px;
   margin-bottom: 40px; }
+
+.main .graybox h1 {
+  text-align: center;
+  font-size: 1.5em; }
 
 .main .graybox h3 {
   color: white;
@@ -631,6 +635,54 @@ select.searchcritique {
   color: white;
   padding: 0 40px; }
 
+#replace1,
+#replace2,
+#replace3,
+#replace4,
+#replace5,
+#replace6,
+#replace7,
+#replace8,
+#replace9,
+#replace10,
+#replace11,
+#replace12,
+#replace13 {
+  cursor: pointer; }
+
+#replace1:hover,
+#replace2:hover,
+#replace3:hover,
+#replace4:hover,
+#replace5:hover,
+#replace6:hover,
+#replace7:hover,
+#replace8:hover,
+#replace9:hover,
+#replace10:hover,
+#replace11:hover,
+#replace12:hover,
+#replace13:hover {
+  opacity: .9; }
+
+.content1,
+.content2,
+.content3,
+.content4,
+.content5,
+.content6,
+.content7,
+.content8,
+.content9,
+.content10,
+.content11,
+.content12,
+.content13 {
+  display: none; }
+
+.display {
+  display: block; }
+
 footer {
   background: #434343;
   padding-bottom: 50px; }
@@ -830,7 +882,11 @@ footer a:visited {
     list-style: none; }
 
   .userform input[type="submit"] {
-    font-size: 1.25em; } }
+    font-size: 1.25em; }
+
+  .main .graybox h1 {
+    font-size: 1.8em;
+    margin-top: 30%; } }
 @media (min-width: 1200px) {
   .hor_nav ul li a:link,
   .hor_nav ul li a:visited {
