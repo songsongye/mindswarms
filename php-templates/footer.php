@@ -18,13 +18,13 @@
 				<ul>
 					<li><a href="researchers.php">Home</a></li>
 					<li><a href="researchers-howitworks.php">How it Works</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Our Database</a></li>
-					<li><a href="#">Occasions</a></li>
+					<li><a href="researchers-services.php">Services</a></li>
+					<li><a href="researchers-database.php">Our Database</a></li>
+					<li><a href="researchers-occasions.php">Occasions</a></li>
 					<li><a href="researchers-casestudies.php">Case Studies &amp; Reports</a></li>
-					<li><a href="#">About</a></li>
+					<li><a href="researchers-about.php">About</a></li>
 					<li><a href="researchers-academy.php">Academy</a></li>
-					<li><a href="#">Start Your Research</a></li>
+					<li><a href="researchers-research.php">Start Your Research</a></li>
 				</ul>
 			</section>
 			<section class="col-sm-3">
