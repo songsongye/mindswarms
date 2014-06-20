@@ -683,6 +683,9 @@ select.searchcritique {
 .display {
   display: block; }
 
+.main .full-width-image {
+  width: 100%; }
+
 footer {
   background: #434343;
   padding-bottom: 50px; }

@@ -94,7 +94,7 @@ if(strtolower($bodyclass) == 'home') {
 					    </li>
 					    <li class="green"><a href="consumers.php">Consumers</a>
 					    	<ul>
-					        	<li><a href="consumers-whysignup.php">Why Sign Up?</a></li>
+					        	<li><a href="consumers-why.php">Why Sign Up?</a></li>
 								<li><a href="consumers-howitworks.php">How it Works</a></li>
 								<li><a href="consumers-tips.php">Tips</a></li>
 								<li><a href="consumers-faq.php">FAQ</a></li>
