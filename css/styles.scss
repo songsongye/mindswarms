@@ -115,6 +115,14 @@ body {
 	font-family: $ssproregular;
 }
 
+body.blue .main,
+body.green .main,
+body.orange .main {
+	background: #ffffff url('../2014/img/background.png') no-repeat;
+	background-position: center bottom;
+	background-size: 100%;
+}
+
 
 // HEADER STYLING/MAIN LOGO
 
@@ -450,11 +458,11 @@ div.main-buttons section.col-sm-6:last-child a:active {
 // SECONDARY PAGE STYLING (RESEARCHERS/CONSUMERS/BLOG)
 
 .main {
-	background-color: $white;
+	// background-color: $white;
 }
 
 .main .gray {
-	background: $gray;
+	background: rgba(220,220,220,.9);
 }
 
 .main .container {
@@ -487,7 +495,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
 }
 
 .main p {
-	color: #999999;
+	color: #666666;
 	font-size: 1.2em;
 	line-height: 1.5em;
 	display: inline-block;

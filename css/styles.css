@@ -41,6 +41,13 @@ body.home, html {
 body {
   font-family: "SourceSansPro-Regular", sans-serif; }
 
+body.blue .main,
+body.green .main,
+body.orange .main {
+  background: white url("../2014/img/background.png") no-repeat;
+  background-position: center bottom;
+  background-size: 100%; }
+
 header {
   background: black;
   line-height: 60px;
@@ -287,11 +294,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
   background: #444444;
   color: white; }
 
-.main {
-  background-color: white; }
-
 .main .gray {
-  background: #e1e1e1; }
+  background: rgba(220, 220, 220, 0.9); }
 
 .main .container {
   padding-top: 50px;
@@ -317,7 +321,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
   color: #f59128; }
 
 .main p {
-  color: #999999;
+  color: #666666;
   font-size: 1.2em;
   line-height: 1.5em;
   display: inline-block;
