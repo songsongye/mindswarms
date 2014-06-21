@@ -45,8 +45,7 @@ if(strtolower($bodyclass) == 'home') {
 <!-- VIDEO BACKGROUND -->
 	<div class="container-fluid">
 		<video autoplay loop poster="" id="video-background">
-			<!-- <source src="video/webm.webm" type="video/webm"> -->
-			<source src="video/mindswarms-consumer-mobile-video-surveys.mp4" type="video/mp4">
+			<source src="//s3.amazonaws.com/site-assets.mindswarms.com/mindswarms-consumer-mobile-video-surveys.mp4" type="video/mp4">
 		</video>
 		<section class="mobile-background">
 		</section>
