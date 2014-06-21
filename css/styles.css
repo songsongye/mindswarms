@@ -10,7 +10,7 @@
   width: auto;
   height: auto;
   z-index: -100;
-  background: url("../img/fpo/videobackground.jpg") no-repeat;
+  background: url("../2014/img/fpo/videobackground.jpg") no-repeat;
   background-size: cover; }
 
 .home video {
@@ -25,7 +25,7 @@
   width: auto;
   height: auto;
   z-index: -100;
-  background: url("../img/fpo/videobackground-mobile.jpg") no-repeat;
+  background: url("../2014/img/fpo/videobackground-mobile.jpg") no-repeat;
   background-size: cover;
   background-position: center center; }
 
