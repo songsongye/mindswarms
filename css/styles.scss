@@ -706,7 +706,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 .col-vimeo {
 
-	// maintains aspect 16/9 aspect ratio, expands to fill whole column in bootstrap
+	// maintains aspect ratio, expands to fill whole column in bootstrap
 	// cblack 20140621
 	// with help from
 	// http://stackoverflow.com/questions/12121090/responsively-change-div-size-keeping-aspect-ratio
@@ -715,6 +715,11 @@ div.main-buttons section.col-sm-6:last-child a:active {
 		padding-top: percentage(9/16);
 		display: block;
 		content: '';
+	}
+
+	// or 4:3 aspect ratio
+	&.ar-4x3:after {
+		padding-top: percentage(3/4);
 	}
 
 	> .video-container {
@@ -748,6 +753,10 @@ div.main-buttons section.col-sm-6:last-child a:active {
 .main .video-container h3 {
 	text-align: center;
 	font-size: 1.4em;
+}
+
+.video-grid .col-vimeo {
+	margin-bottom: $grid-gutter-width;
 }
 
 .blue .main .video-container h3 {
