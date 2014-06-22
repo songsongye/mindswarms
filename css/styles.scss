@@ -373,6 +373,7 @@ header a:active {
 	font-size: 3em;
 	margin: 0;
 	line-height: 45px;
+	> img { height: 35px; }
 }
 
 .title-block h2 {
@@ -1132,6 +1133,7 @@ footer a:visited {
 	.title-block h1 {
 		font-size: 6em;
 		line-height: 75px;
+		> img { height: 65px; }
 	}
 
 	.title-block h2 {
@@ -1226,6 +1228,7 @@ footer a:visited {
 	.title-block h1 {
 		font-size: 10em;
 		line-height: 125px;
+		> img { height: 115px; }
 	}
 
 	.title-block h2 {
