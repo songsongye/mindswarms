@@ -1,3 +1,6 @@
+// quickfix: copied from bootstrap scss
+$grid-gutter-width:         30px !default;
+
 // COLORS
 
 $white: #FFFFFF;
@@ -701,12 +704,45 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	color: $gray;
 }
 
-.main .video-container img {
-	width: 100%;
+.col-vimeo {
+
+	// maintains aspect 16/9 aspect ratio, expands to fill whole column in bootstrap
+	// cblack 20140621
+	// with help from
+	// http://stackoverflow.com/questions/12121090/responsively-change-div-size-keeping-aspect-ratio
+
+	&:after {
+		padding-top: percentage(9/16);
+		display: block;
+		content: '';
+	}
+
+	> .video-container {
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: ($grid-gutter-width / 2);
+		left: ($grid-gutter-width / 2);
+
+		> iframe {
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	// nogutter hack, match nogutter elements below
+	&.nogutter > .video-container {
+		right: 0;
+		left: 0;
+	}
+
 }
 
-.main .video-container {
-	margin-bottom: 30px;
+.main .video-container img {
+	width: 100%;
 }
 
 .main .video-container h3 {
