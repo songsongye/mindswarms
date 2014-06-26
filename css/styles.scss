@@ -51,6 +51,8 @@ $ssproregular: 'SourceSansPro-Regular', sans-serif;
 $ssprobold: 'SourceSansPro-Bold', sans-serif;
 $ssproitalic: 'SourceSansPro-Italic', sans-serif;
 
+$raleway: 'Raleway', sans-serif;
+
 
 
 
@@ -478,12 +480,14 @@ div.main-buttons section.col-sm-6:last-child a:active {
 	font-size: 2em;
 	line-height: 1em;
 	margin: 10px 0;
+	font-family: $raleway;
 }
 
 .main h2 {
 	font-size: 1.6em;
 	color: $darkgray;
 	margin: 10px 0;
+	font-family: $raleway;
 }
 
 .blue .main h1 {
@@ -589,12 +593,19 @@ div.main-buttons section.col-sm-6:last-child a:active {
 .main .graybox h1 {
 	text-align: center;
 	font-size: 1.5em;
+	font-family: $raleway;
 }
 
 .main .graybox h3 {
 	color: $white;
 	font-size: 1.3em;
 	margin: 10px 0;
+	font-family: $raleway;
+}
+
+.main .graybox ul li {
+	color: $gray;
+	font-size: 1.2em;
 }
 
 .main .graybox p {
@@ -830,6 +841,10 @@ select.searchcritique {
 	margin-bottom: 50px;
 }
 
+.userform ul.nomobilemargin {
+	margin-bottom: 0;
+}
+
 .userform ul li {
 	list-style: none;
 	padding: 5px 0;
@@ -860,6 +875,18 @@ select.searchcritique {
 	margin-left: 20px;
 }
 
+.userform input[type="checkbox"] {
+	line-height: 40px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.userform .forgotpassword:link,
+.userform .forgotpassword:visited {
+	display: block;
+	text-align: right;
+}
+
 .userform select {
 	@include appearance(none);
 	height: 30px;
@@ -882,12 +909,41 @@ select.searchcritique {
 .userform input[type="submit"] {
 	float: right;
 	height: 40px;
-	background: $blue;
 	@include appearance(none);
 	border: none;
 	color: $white;
 	padding: 0 40px;
+	@include transition(.3s);
 }
+
+.blue .userform input[type="submit"] {
+	background: $blue;
+}
+
+.green .userform input[type="submit"] {
+	background: $green;
+}
+
+.orange .userform input[type="submit"] {
+	background: $orange;
+}
+
+.blue .userform input[type="submit"]:hover {
+	background: $white;
+	color: $blue;
+}
+
+.green .userform input[type="submit"]:hover {
+	background: $white;
+	color: $green;
+}
+
+.orange .userform input[type="submit"]:hover {
+	background: $white;
+	color: $orange;
+}
+
+
 
 #replace1,
 #replace2,

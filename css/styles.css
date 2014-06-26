@@ -306,12 +306,14 @@ div.main-buttons section.col-sm-6:last-child a:active {
 .main h1 {
   font-size: 2em;
   line-height: 1em;
-  margin: 10px 0; }
+  margin: 10px 0;
+  font-family: "Raleway", sans-serif; }
 
 .main h2 {
   font-size: 1.6em;
   color: #444444;
-  margin: 10px 0; }
+  margin: 10px 0;
+  font-family: "Raleway", sans-serif; }
 
 .blue .main h1 {
   color: #4bc8cd; }
@@ -404,12 +406,18 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 .main .graybox h1 {
   text-align: center;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  font-family: "Raleway", sans-serif; }
 
 .main .graybox h3 {
   color: white;
   font-size: 1.3em;
-  margin: 10px 0; }
+  margin: 10px 0;
+  font-family: "Raleway", sans-serif; }
+
+.main .graybox ul li {
+  color: #e1e1e1;
+  font-size: 1.2em; }
 
 .main .graybox p {
   color: #e1e1e1;
@@ -601,6 +609,9 @@ select.searchcritique {
   padding: 0;
   margin-bottom: 50px; }
 
+.userform ul.nomobilemargin {
+  margin-bottom: 0; }
+
 .userform ul li {
   list-style: none;
   padding: 5px 0;
@@ -625,6 +636,16 @@ select.searchcritique {
 .userform input[type="date"] {
   height: 30px;
   margin-left: 20px; }
+
+.userform input[type="checkbox"] {
+  line-height: 40px;
+  display: inline-block;
+  margin: 10px; }
+
+.userform .forgotpassword:link,
+.userform .forgotpassword:visited {
+  display: block;
+  text-align: right; }
 
 .userform select {
   -webkit-appearance: none;
@@ -653,7 +674,6 @@ select.searchcritique {
 .userform input[type="submit"] {
   float: right;
   height: 40px;
-  background: #4bc8cd;
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -661,7 +681,33 @@ select.searchcritique {
   appearance: none;
   border: none;
   color: white;
-  padding: 0 40px; }
+  padding: 0 40px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear; }
+
+.blue .userform input[type="submit"] {
+  background: #4bc8cd; }
+
+.green .userform input[type="submit"] {
+  background: #afd741; }
+
+.orange .userform input[type="submit"] {
+  background: #f59128; }
+
+.blue .userform input[type="submit"]:hover {
+  background: white;
+  color: #4bc8cd; }
+
+.green .userform input[type="submit"]:hover {
+  background: white;
+  color: #afd741; }
+
+.orange .userform input[type="submit"]:hover {
+  background: white;
+  color: #f59128; }
 
 #replace1,
 #replace2,
@@ -947,18 +993,22 @@ footer a:visited {
 @font-face {
   font-family: 'SourceSansPro-Italic';
   src: url("../2014/fonts/SourceSansPro/SourceSansPro-Italic.ttf") format("truetype"); }
+
 @font-face {
   font-family: 'SourceSansPro-Regular';
   src: url("../2014/fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype"); }
+
 @font-face {
   font-family: 'SourceSansPro-Bold';
   src: url("../2014/fonts/SourceSansPro/SourceSansPro-Semibold.ttf") format("truetype"); }
+
 @font-face {
   font-family: 'mindswarms';
   src: url("../2014/fonts/mindswarms.eot?-iuxb0p");
   src: url("../2014/fonts/mindswarms.eot?#iefix-iuxb0p") format("embedded-opentype"), url("../2014/fonts/mindswarms.woff?-iuxb0p") format("woff"), url("../2014/fonts/mindswarms.ttf?-iuxb0p") format("truetype"), url("../2014/fonts/mindswarms.svg?-iuxb0p#mindswarms") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'mindswarms';
   speak: none;

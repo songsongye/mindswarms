@@ -22,6 +22,8 @@
 	<link rel="stylesheet" href="css/2014-bootstrap.css" />
 	<link rel="stylesheet" href="css/styles.css" />
 
+	<link href='http://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
