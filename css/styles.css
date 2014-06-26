@@ -328,7 +328,7 @@ div.main-buttons section.col-sm-6:last-child a:active {
   color: #666666;
   font-size: 1.2em;
   line-height: 1.5em;
-  display: inline-block;
+  display: block;
   margin-top: 10px;
   margin-bottom: 10px; }
 
@@ -554,7 +554,8 @@ div.main-buttons section.col-sm-6:last-child a:active {
 
 .main .video-container .videodescription {
   display: block;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 20px; }
 
 .main .table td {
   padding: 20px;
@@ -912,6 +913,9 @@ footer a:visited {
   .social-icons {
     float: right; } }
 @media (min-width: 992px) {
+  .main {
+    min-height: 850px; }
+
   .main-buttons a:link,
   .main-buttons a:visited {
     height: 80px;
